@@ -1,0 +1,1019 @@
+{
+  "contract": "argus-scene-material-guidance/v1",
+  "guidance": "Authored surface planes, positive samples and excluded objects; pixel ownership is computed within each plane.",
+  "cases": [
+    {
+      "id": "community_building",
+      "title": "Community Building \u00b7 exterior materials",
+      "reference_size": [
+        1023,
+        655
+      ],
+      "photo_subject": "Grand Canyon National Park: Community Building (2014) 8247",
+      "author": "Grand Canyon National Park",
+      "source_url": "https://www.flickr.com/photos/50693818@N08/13230532283",
+      "materials": [
+        {
+          "id": "wood_siding",
+          "label": "Exterior wooden siding",
+          "plane_quad": [
+            [
+              201,
+              348
+            ],
+            [
+              548,
+              316
+            ],
+            [
+              551,
+              555
+            ],
+            [
+              195,
+              516
+            ]
+          ],
+          "uv_size": [
+            900,
+            620
+          ],
+          "seeds": [
+            [
+              [
+                480,
+                374
+              ],
+              [
+                543,
+                374
+              ],
+              [
+                543,
+                414
+              ],
+              [
+                480,
+                414
+              ]
+            ],
+            [
+              [
+                483,
+                476
+              ],
+              [
+                542,
+                476
+              ],
+              [
+                542,
+                529
+              ],
+              [
+                483,
+                529
+              ]
+            ],
+            [
+              [
+                277,
+                375
+              ],
+              [
+                307,
+                375
+              ],
+              [
+                307,
+                492
+              ],
+              [
+                277,
+                492
+              ]
+            ]
+          ],
+          "exclude": [
+            [
+              [
+                185,
+                350
+              ],
+              [
+                277,
+                350
+              ],
+              [
+                277,
+                482
+              ],
+              [
+                185,
+                482
+              ]
+            ],
+            [
+              [
+                311,
+                332
+              ],
+              [
+                478,
+                319
+              ],
+              [
+                478,
+                551
+              ],
+              [
+                311,
+                535
+              ]
+            ],
+            [
+              [
+                475,
+                426
+              ],
+              [
+                543,
+                426
+              ],
+              [
+                543,
+                469
+              ],
+              [
+                475,
+                469
+              ]
+            ],
+            [
+              [
+                190,
+                488
+              ],
+              [
+                226,
+                488
+              ],
+              [
+                226,
+                542
+              ],
+              [
+                190,
+                542
+              ]
+            ]
+          ],
+          "pattern": "horizontal_boards",
+          "roughness": 0.76,
+          "relief_strength": 0.28,
+          "excluded_elements": [
+            "windows and green frames",
+            "log posts",
+            "open door and bicycle",
+            "sign",
+            "foundation and railing"
+          ]
+        },
+        {
+          "id": "roof_shingles",
+          "label": "Weathered roof shingles",
+          "plane_quad": [
+            [
+              304,
+              280
+            ],
+            [
+              477,
+              253
+            ],
+            [
+              539,
+              281
+            ],
+            [
+              239,
+              318
+            ]
+          ],
+          "uv_size": [
+            700,
+            180
+          ],
+          "seeds": [
+            [
+              [
+                348,
+                280
+              ],
+              [
+                420,
+                271
+              ],
+              [
+                433,
+                282
+              ],
+              [
+                348,
+                293
+              ]
+            ]
+          ],
+          "exclude": [],
+          "pattern": "horizontal_boards",
+          "roughness": 0.86,
+          "relief_strength": 0.18,
+          "excluded_elements": [
+            "tree trunk and branches",
+            "roof edge and support logs",
+            "upper wall"
+          ]
+        },
+        {
+          "id": "foundation_stone",
+          "label": "Foundation stone",
+          "plane_quad": [
+            [
+              213,
+              518
+            ],
+            [
+              309,
+              534
+            ],
+            [
+              308,
+              554
+            ],
+            [
+              213,
+              540
+            ]
+          ],
+          "uv_size": [
+            384,
+            88
+          ],
+          "seeds": [
+            [
+              [
+                243,
+                534
+              ],
+              [
+                269,
+                534
+              ],
+              [
+                269,
+                543
+              ],
+              [
+                243,
+                543
+              ]
+            ]
+          ],
+          "exclude": [],
+          "pattern": "quilt",
+          "roughness": 0.9,
+          "relief_strength": 0.3,
+          "excluded_elements": [
+            "wood siding above",
+            "concrete step",
+            "soil below"
+          ]
+        },
+        {
+          "id": "painted_trim",
+          "label": "Green painted window trim",
+          "plane_quad": [
+            [
+              240,
+              361
+            ],
+            [
+              248,
+              360
+            ],
+            [
+              247,
+              471
+            ],
+            [
+              239,
+              471
+            ]
+          ],
+          "uv_size": [
+            48,
+            640
+          ],
+          "seeds": [
+            [
+              [
+                242,
+                382
+              ],
+              [
+                245,
+                382
+              ],
+              [
+                245,
+                441
+              ],
+              [
+                242,
+                441
+              ]
+            ]
+          ],
+          "exclude": [],
+          "pattern": "quilt",
+          "roughness": 0.58,
+          "relief_strength": 0.04,
+          "excluded_elements": [
+            "glass",
+            "window openings",
+            "wood siding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "office_cubicle",
+      "title": "Office \u00b7 interior materials",
+      "reference_size": [
+        1024,
+        768
+      ],
+      "photo_subject": "my office",
+      "author": "Robbie Sproule",
+      "source_url": "https://www.flickr.com/photos/85278812@N00/1725317",
+      "materials": [
+        {
+          "id": "partition_fabric",
+          "label": "Cubicle upholstery fabric",
+          "plane_quad": [
+            [
+              404,
+              218
+            ],
+            [
+              902,
+              185
+            ],
+            [
+              901,
+              620
+            ],
+            [
+              402,
+              594
+            ]
+          ],
+          "uv_size": [
+            900,
+            760
+          ],
+          "seeds": [
+            [
+              [
+                699,
+                273
+              ],
+              [
+                789,
+                273
+              ],
+              [
+                789,
+                290
+              ],
+              [
+                699,
+                290
+              ]
+            ],
+            [
+              [
+                710,
+                313
+              ],
+              [
+                800,
+                313
+              ],
+              [
+                800,
+                338
+              ],
+              [
+                710,
+                338
+              ]
+            ],
+            [
+              [
+                445,
+                240
+              ],
+              [
+                509,
+                240
+              ],
+              [
+                509,
+                284
+              ],
+              [
+                445,
+                284
+              ]
+            ]
+          ],
+          "exclude": [
+            [
+              [
+                528,
+                212
+              ],
+              [
+                577,
+                212
+              ],
+              [
+                577,
+                295
+              ],
+              [
+                528,
+                295
+              ]
+            ],
+            [
+              [
+                614,
+                204
+              ],
+              [
+                681,
+                204
+              ],
+              [
+                681,
+                271
+              ],
+              [
+                614,
+                271
+              ]
+            ],
+            [
+              [
+                564,
+                298
+              ],
+              [
+                666,
+                298
+              ],
+              [
+                666,
+                383
+              ],
+              [
+                564,
+                383
+              ]
+            ],
+            [
+              [
+                402,
+                385
+              ],
+              [
+                902,
+                351
+              ],
+              [
+                902,
+                650
+              ],
+              [
+                402,
+                650
+              ]
+            ],
+            [
+              [
+                403,
+                310
+              ],
+              [
+                902,
+                290
+              ],
+              [
+                902,
+                298
+              ],
+              [
+                403,
+                318
+              ]
+            ],
+            [
+              [
+                615,
+                185
+              ],
+              [
+                622,
+                185
+              ],
+              [
+                622,
+                400
+              ],
+              [
+                615,
+                400
+              ]
+            ],
+            [
+              [
+                787,
+                326
+              ],
+              [
+                902,
+                326
+              ],
+              [
+                902,
+                421
+              ],
+              [
+                787,
+                421
+              ]
+            ],
+            [
+              [
+                723,
+                339
+              ],
+              [
+                812,
+                339
+              ],
+              [
+                812,
+                435
+              ],
+              [
+                723,
+                435
+              ]
+            ],
+            [
+              [
+                403,
+                243
+              ],
+              [
+                439,
+                243
+              ],
+              [
+                439,
+                337
+              ],
+              [
+                403,
+                337
+              ]
+            ]
+          ],
+          "pattern": "quilt",
+          "roughness": 0.94,
+          "relief_strength": 0.08,
+          "excluded_elements": [
+            "paper and photographs",
+            "panel joins",
+            "shelves",
+            "computers and desk clutter"
+          ]
+        },
+        {
+          "id": "wall_paint",
+          "label": "Interior wall paint",
+          "plane_quad": [
+            [
+              458,
+              77
+            ],
+            [
+              1006,
+              64
+            ],
+            [
+              1006,
+              189
+            ],
+            [
+              458,
+              211
+            ]
+          ],
+          "uv_size": [
+            900,
+            256
+          ],
+          "seeds": [
+            [
+              [
+                701,
+                104
+              ],
+              [
+                769,
+                104
+              ],
+              [
+                769,
+                158
+              ],
+              [
+                701,
+                158
+              ]
+            ],
+            [
+              [
+                815,
+                107
+              ],
+              [
+                873,
+                107
+              ],
+              [
+                873,
+                146
+              ],
+              [
+                815,
+                146
+              ]
+            ]
+          ],
+          "exclude": [
+            [
+              [
+                739,
+                172
+              ],
+              [
+                871,
+                172
+              ],
+              [
+                871,
+                214
+              ],
+              [
+                739,
+                214
+              ]
+            ],
+            [
+              [
+                504,
+                188
+              ],
+              [
+                635,
+                188
+              ],
+              [
+                635,
+                220
+              ],
+              [
+                504,
+                220
+              ]
+            ],
+            [
+              [
+                902,
+                152
+              ],
+              [
+                1008,
+                152
+              ],
+              [
+                1008,
+                218
+              ],
+              [
+                902,
+                218
+              ]
+            ]
+          ],
+          "pattern": "quilt",
+          "roughness": 0.78,
+          "relief_strength": 0.025,
+          "excluded_elements": [
+            "frames and door edges",
+            "cubicle partition below"
+          ]
+        },
+        {
+          "id": "carpet",
+          "label": "Office carpet",
+          "plane_quad": [
+            [
+              260,
+              655
+            ],
+            [
+              946,
+              641
+            ],
+            [
+              984,
+              767
+            ],
+            [
+              207,
+              767
+            ]
+          ],
+          "uv_size": [
+            1024,
+            240
+          ],
+          "seeds": [
+            [
+              [
+                785,
+                681
+              ],
+              [
+                852,
+                681
+              ],
+              [
+                852,
+                736
+              ],
+              [
+                785,
+                736
+              ]
+            ],
+            [
+              [
+                567,
+                711
+              ],
+              [
+                667,
+                711
+              ],
+              [
+                667,
+                751
+              ],
+              [
+                567,
+                751
+              ]
+            ]
+          ],
+          "exclude": [
+            [
+              [
+                546,
+                594
+              ],
+              [
+                775,
+                594
+              ],
+              [
+                775,
+                700
+              ],
+              [
+                546,
+                700
+              ]
+            ],
+            [
+              [
+                335,
+                595
+              ],
+              [
+                549,
+                595
+              ],
+              [
+                549,
+                687
+              ],
+              [
+                335,
+                687
+              ]
+            ]
+          ],
+          "pattern": "quilt",
+          "roughness": 0.95,
+          "relief_strength": 0.12,
+          "excluded_elements": [
+            "chair base",
+            "file cabinet",
+            "desk legs and foreground objects"
+          ]
+        },
+        {
+          "id": "cabinet_finish",
+          "label": "Painted cabinet finish",
+          "plane_quad": [
+            [
+              640,
+              523
+            ],
+            [
+              755,
+              528
+            ],
+            [
+              740,
+              686
+            ],
+            [
+              635,
+              677
+            ]
+          ],
+          "uv_size": [
+            240,
+            340
+          ],
+          "seeds": [
+            [
+              [
+                653,
+                581
+              ],
+              [
+                721,
+                581
+              ],
+              [
+                721,
+                610
+              ],
+              [
+                653,
+                610
+              ]
+            ],
+            [
+              [
+                650,
+                629
+              ],
+              [
+                723,
+                629
+              ],
+              [
+                723,
+                659
+              ],
+              [
+                650,
+                659
+              ]
+            ]
+          ],
+          "exclude": [
+            [
+              [
+                637,
+                531
+              ],
+              [
+                751,
+                531
+              ],
+              [
+                751,
+                559
+              ],
+              [
+                637,
+                559
+              ]
+            ],
+            [
+              [
+                637,
+                612
+              ],
+              [
+                749,
+                612
+              ],
+              [
+                749,
+                626
+              ],
+              [
+                637,
+                626
+              ]
+            ],
+            [
+              [
+                724,
+                523
+              ],
+              [
+                756,
+                523
+              ],
+              [
+                756,
+                688
+              ],
+              [
+                724,
+                688
+              ]
+            ],
+            [
+              [
+                635,
+                590
+              ],
+              [
+                752,
+                603
+              ],
+              [
+                752,
+                631
+              ],
+              [
+                635,
+                618
+              ]
+            ],
+            [
+              [
+                635,
+                666
+              ],
+              [
+                747,
+                677
+              ],
+              [
+                747,
+                690
+              ],
+              [
+                635,
+                690
+              ]
+            ]
+          ],
+          "pattern": "quilt",
+          "roughness": 0.57,
+          "relief_strength": 0.035,
+          "excluded_elements": [
+            "drawer handles",
+            "drawer seams",
+            "carpet and desk"
+          ]
+        }
+      ]
+    }
+  ]
+}

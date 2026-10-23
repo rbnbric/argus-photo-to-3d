@@ -1,0 +1,680 @@
+{
+  "id": "roof_shingles",
+  "label": "Weathered roof shingles",
+  "plane_quad": [
+    [
+      304,
+      280
+    ],
+    [
+      477,
+      253
+    ],
+    [
+      539,
+      281
+    ],
+    [
+      239,
+      318
+    ]
+  ],
+  "uv_size": [
+    700,
+    180
+  ],
+  "seeds": [
+    [
+      [
+        348,
+        280
+      ],
+      [
+        420,
+        271
+      ],
+      [
+        433,
+        282
+      ],
+      [
+        348,
+        293
+      ]
+    ]
+  ],
+  "exclude": [],
+  "pattern": "horizontal_boards",
+  "roughness": 0.86,
+  "relief_strength": 0.18,
+  "excluded_elements": [
+    "tree trunk and branches",
+    "roof edge and support logs",
+    "upper wall"
+  ],
+  "folder": "community_building/roof_shingles",
+  "source_sha256": "cc4e6f08b8a4d34f9b53b726e2e72a9e1b5ce262c94fd37a33c21349821eac4e",
+  "source_credit": {
+    "title": "Grand Canyon National Park: Community Building (2014) 8247",
+    "author": "Grand Canyon National Park",
+    "url": "https://www.flickr.com/photos/50693818@N08/13230532283",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "adaptations": "perspective rectification, material masking, illumination reduction, quilting and inferred PBR maps"
+  },
+  "guidance": "authored plane, sample islands and object keep-outs; computed chromaticity ownership",
+  "uv_to_reference_matrix": [
+    [
+      0.13908016822771463,
+      -0.8845214723862282,
+      304.0
+    ],
+    [
+      -0.09613040938817466,
+      -0.4814457645022061,
+      280.0
+    ],
+    [
+      -0.00022728774682258718,
+      -0.0021815605889795664,
+      1.0
+    ]
+  ],
+  "reference_size": [
+    1023,
+    655
+  ],
+  "native_source_size": [
+    3000,
+    1920
+  ],
+  "owned_uv_pixels": 120978,
+  "plane_coverage": 0.9601,
+  "lighting": {
+    "gain_p05_p95": [
+      0.9393,
+      1.1428
+    ],
+    "clipped_owned_fraction": 0.001959,
+    "fitted_log_illumination_std": 0.067412,
+    "method": "masked broad log-luminance field; scalar gain; material color ratios retained",
+    "qualification": "single-image illumination estimate, not measured albedo"
+  },
+  "repeat": {
+    "seed": 7,
+    "patch_size_wh": [
+      128,
+      42
+    ],
+    "eligible_donors": 516,
+    "selected_donors": [
+      {
+        "source_uv_xywh": [
+          197,
+          122,
+          128,
+          42
+        ],
+        "output_xy": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          260,
+          122,
+          128,
+          42
+        ],
+        "output_xy": [
+          96,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          216,
+          122,
+          128,
+          42
+        ],
+        "output_xy": [
+          192,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          64,
+          31,
+          128,
+          42
+        ],
+        "output_xy": [
+          288,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          5,
+          68,
+          128,
+          42
+        ],
+        "output_xy": [
+          384,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          53,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          0,
+          21
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          96,
+          21
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          506,
+          122,
+          128,
+          42
+        ],
+        "output_xy": [
+          192,
+          21
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          57,
+          17,
+          128,
+          42
+        ],
+        "output_xy": [
+          288,
+          21
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          26,
+          68,
+          128,
+          42
+        ],
+        "output_xy": [
+          384,
+          21
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          523,
+          122,
+          128,
+          42
+        ],
+        "output_xy": [
+          0,
+          42
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          516,
+          122,
+          128,
+          42
+        ],
+        "output_xy": [
+          96,
+          42
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          28,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          192,
+          42
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          28,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          288,
+          42
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          205,
+          122,
+          128,
+          42
+        ],
+        "output_xy": [
+          384,
+          42
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          12,
+          17,
+          128,
+          42
+        ],
+        "output_xy": [
+          0,
+          63
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          22,
+          17,
+          128,
+          42
+        ],
+        "output_xy": [
+          96,
+          63
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          3,
+          31,
+          128,
+          42
+        ],
+        "output_xy": [
+          192,
+          63
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          9,
+          31,
+          128,
+          42
+        ],
+        "output_xy": [
+          288,
+          63
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          30,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          384,
+          63
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          2,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          0,
+          84
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          23,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          96,
+          84
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          35,
+          17,
+          128,
+          42
+        ],
+        "output_xy": [
+          192,
+          84
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          4,
+          31,
+          128,
+          42
+        ],
+        "output_xy": [
+          288,
+          84
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          17,
+          128,
+          42
+        ],
+        "output_xy": [
+          384,
+          84
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          482,
+          122,
+          128,
+          42
+        ],
+        "output_xy": [
+          0,
+          105
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          563,
+          122,
+          128,
+          42
+        ],
+        "output_xy": [
+          96,
+          105
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          512,
+          122,
+          128,
+          42
+        ],
+        "output_xy": [
+          192,
+          105
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          288,
+          105
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          28,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          384,
+          105
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          13,
+          80,
+          128,
+          42
+        ],
+        "output_xy": [
+          0,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          528,
+          122,
+          128,
+          42
+        ],
+        "output_xy": [
+          96,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          5,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          192,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          49,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          288,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          42,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          384,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          41,
+          80,
+          128,
+          42
+        ],
+        "output_xy": [
+          0,
+          147
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          17,
+          128,
+          42
+        ],
+        "output_xy": [
+          96,
+          147
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          17,
+          128,
+          42
+        ],
+        "output_xy": [
+          192,
+          147
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          3,
+          55,
+          128,
+          42
+        ],
+        "output_xy": [
+          288,
+          147
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          495,
+          122,
+          128,
+          42
+        ],
+        "output_xy": [
+          384,
+          147
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          53,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          0,
+          168
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          11,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          96,
+          168
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          34,
+          102,
+          128,
+          42
+        ],
+        "output_xy": [
+          192,
+          168
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          6,
+          55,
+          128,
+          42
+        ],
+        "output_xy": [
+          288,
+          168
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          17,
+          128,
+          42
+        ],
+        "output_xy": [
+          384,
+          168
+        ]
+      }
+    ],
+    "all_donors_fully_owned": true,
+    "board_pitch_uv_pixels": 21,
+    "detected_seam_rows": [
+      17,
+      31,
+      55,
+      68,
+      80,
+      102,
+      122,
+      149,
+      172
+    ],
+    "method": "board-phase-aligned quilting",
+    "rotation": 0,
+    "mirror": false,
+    "seam_rgb_mae_255": 0.0
+  },
+  "region_mesh_triangles": 3186,
+  "warnings": [],
+  "qualification": "review candidate; shape, roughness and absolute lighting unmeasured",
+  "map_contract": {
+    "basecolor": "scalar illumination-reduced photographic color; not measured albedo",
+    "normal": "OpenGL tangent-space; inferred from image detail",
+    "height": "16-bit appearance-derived relief prior; no metric scale",
+    "roughness": "constant authored prior",
+    "metallic": "zero prior",
+    "ao": "white neutral default"
+  }
+}

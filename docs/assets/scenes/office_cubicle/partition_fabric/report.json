@@ -1,0 +1,1098 @@
+{
+  "id": "partition_fabric",
+  "label": "Cubicle upholstery fabric",
+  "plane_quad": [
+    [
+      404,
+      218
+    ],
+    [
+      902,
+      185
+    ],
+    [
+      901,
+      620
+    ],
+    [
+      402,
+      594
+    ]
+  ],
+  "uv_size": [
+    900,
+    760
+  ],
+  "seeds": [
+    [
+      [
+        699,
+        273
+      ],
+      [
+        789,
+        273
+      ],
+      [
+        789,
+        290
+      ],
+      [
+        699,
+        290
+      ]
+    ],
+    [
+      [
+        710,
+        313
+      ],
+      [
+        800,
+        313
+      ],
+      [
+        800,
+        338
+      ],
+      [
+        710,
+        338
+      ]
+    ],
+    [
+      [
+        445,
+        240
+      ],
+      [
+        509,
+        240
+      ],
+      [
+        509,
+        284
+      ],
+      [
+        445,
+        284
+      ]
+    ]
+  ],
+  "exclude": [
+    [
+      [
+        528,
+        212
+      ],
+      [
+        577,
+        212
+      ],
+      [
+        577,
+        295
+      ],
+      [
+        528,
+        295
+      ]
+    ],
+    [
+      [
+        614,
+        204
+      ],
+      [
+        681,
+        204
+      ],
+      [
+        681,
+        271
+      ],
+      [
+        614,
+        271
+      ]
+    ],
+    [
+      [
+        564,
+        298
+      ],
+      [
+        666,
+        298
+      ],
+      [
+        666,
+        383
+      ],
+      [
+        564,
+        383
+      ]
+    ],
+    [
+      [
+        402,
+        385
+      ],
+      [
+        902,
+        351
+      ],
+      [
+        902,
+        650
+      ],
+      [
+        402,
+        650
+      ]
+    ],
+    [
+      [
+        403,
+        310
+      ],
+      [
+        902,
+        290
+      ],
+      [
+        902,
+        298
+      ],
+      [
+        403,
+        318
+      ]
+    ],
+    [
+      [
+        615,
+        185
+      ],
+      [
+        622,
+        185
+      ],
+      [
+        622,
+        400
+      ],
+      [
+        615,
+        400
+      ]
+    ],
+    [
+      [
+        787,
+        326
+      ],
+      [
+        902,
+        326
+      ],
+      [
+        902,
+        421
+      ],
+      [
+        787,
+        421
+      ]
+    ],
+    [
+      [
+        723,
+        339
+      ],
+      [
+        812,
+        339
+      ],
+      [
+        812,
+        435
+      ],
+      [
+        723,
+        435
+      ]
+    ],
+    [
+      [
+        403,
+        243
+      ],
+      [
+        439,
+        243
+      ],
+      [
+        439,
+        337
+      ],
+      [
+        403,
+        337
+      ]
+    ]
+  ],
+  "pattern": "quilt",
+  "roughness": 0.94,
+  "relief_strength": 0.08,
+  "excluded_elements": [
+    "paper and photographs",
+    "panel joins",
+    "shelves",
+    "computers and desk clutter"
+  ],
+  "folder": "office_cubicle/partition_fabric",
+  "source_sha256": "ad5c0f0a4c201994a609285b0e98d8168beea1702f98f4f697d2d7fb732aceb7",
+  "source_credit": {
+    "title": "my office",
+    "author": "Robbie Sproule",
+    "url": "https://www.flickr.com/photos/85278812@N00/1725317",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "adaptations": "perspective rectification, material masking, illumination reduction, quilting and inferred PBR maps"
+  },
+  "guidance": "authored plane, sample islands and object keep-outs; computed chromaticity ownership",
+  "uv_to_reference_matrix": [
+    [
+      0.41800050130963934,
+      -0.0038402746523744868,
+      404.0
+    ],
+    [
+      -0.06459042521338977,
+      0.49360780922159814,
+      218.0
+    ],
+    [
+      -0.00015071877020615945,
+      -2.99808094295399e-06,
+      1.0
+    ]
+  ],
+  "reference_size": [
+    1024,
+    768
+  ],
+  "native_source_size": [
+    1600,
+    1200
+  ],
+  "owned_uv_pixels": 129418,
+  "plane_coverage": 0.1892,
+  "lighting": {
+    "gain_p05_p95": [
+      0.9815,
+      1.2312
+    ],
+    "clipped_owned_fraction": 0.0,
+    "fitted_log_illumination_std": 0.083267,
+    "method": "masked broad log-luminance field; scalar gain; material color ratios retained",
+    "qualification": "single-image illumination estimate, not measured albedo"
+  },
+  "repeat": {
+    "seed": 7,
+    "patch_size_wh": [
+      64,
+      64
+    ],
+    "eligible_donors": 47475,
+    "selected_donors": [
+      {
+        "source_uv_xywh": [
+          695,
+          83,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          775,
+          96,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          773,
+          60,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          764,
+          23,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          778,
+          53,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          781,
+          60,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          785,
+          68,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          763,
+          91,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          632,
+          52,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          630,
+          118,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          774,
+          105,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          633,
+          115,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          697,
+          87,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          763,
+          76,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          775,
+          84,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          786,
+          82,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          623,
+          80,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          734,
+          91,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          755,
+          83,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          757,
+          72,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          709,
+          36,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          618,
+          61,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          655,
+          55,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          712,
+          97,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          583,
+          58,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          628,
+          101,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          767,
+          91,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          735,
+          55,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          698,
+          22,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          689,
+          31,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          597,
+          73,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          620,
+          92,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          614,
+          36,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          632,
+          26,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          631,
+          55,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          623,
+          86,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          750,
+          49,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          740,
+          97,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          625,
+          62,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          635,
+          104,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          695,
+          20,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          702,
+          33,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          637,
+          118,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          590,
+          46,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          614,
+          100,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          765,
+          96,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          598,
+          34,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          631,
+          47,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          697,
+          64,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          746,
+          92,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          745,
+          15,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          635,
+          90,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          698,
+          34,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          745,
+          108,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          641,
+          92,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          615,
+          116,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          759,
+          99,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          320
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          705,
+          89,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          320
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          628,
+          85,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          320
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          734,
+          91,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          320
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          686,
+          30,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          320
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          682,
+          98,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          320
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          581,
+          83,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          320
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          653,
+          114,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          320
+        ]
+      }
+    ],
+    "all_donors_fully_owned": true,
+    "board_pitch_uv_pixels": null,
+    "detected_seam_rows": [],
+    "method": "masked overlap-ranked quilting",
+    "rotation": 0,
+    "mirror": false,
+    "seam_rgb_mae_255": 0.0
+  },
+  "region_mesh_triangles": 3528,
+  "warnings": [],
+  "qualification": "review candidate; shape, roughness and absolute lighting unmeasured",
+  "map_contract": {
+    "basecolor": "scalar illumination-reduced photographic color; not measured albedo",
+    "normal": "OpenGL tangent-space; inferred from image detail",
+    "height": "16-bit appearance-derived relief prior; no metric scale",
+    "roughness": "constant authored prior",
+    "metallic": "zero prior",
+    "ao": "white neutral default"
+  }
+}

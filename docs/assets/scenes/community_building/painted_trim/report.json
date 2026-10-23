@@ -1,0 +1,5422 @@
+{
+  "id": "painted_trim",
+  "label": "Green painted window trim",
+  "plane_quad": [
+    [
+      240,
+      361
+    ],
+    [
+      248,
+      360
+    ],
+    [
+      247,
+      471
+    ],
+    [
+      239,
+      471
+    ]
+  ],
+  "uv_size": [
+    48,
+    640
+  ],
+  "seeds": [
+    [
+      [
+        242,
+        382
+      ],
+      [
+        245,
+        382
+      ],
+      [
+        245,
+        441
+      ],
+      [
+        242,
+        441
+      ]
+    ]
+  ],
+  "exclude": [],
+  "pattern": "quilt",
+  "roughness": 0.58,
+  "relief_strength": 0.04,
+  "excluded_elements": [
+    "glass",
+    "window openings",
+    "wood siding"
+  ],
+  "folder": "community_building/painted_trim",
+  "source_sha256": "cc4e6f08b8a4d34f9b53b726e2e72a9e1b5ce262c94fd37a33c21349821eac4e",
+  "source_credit": {
+    "title": "Grand Canyon National Park: Community Building (2014) 8247",
+    "author": "Grand Canyon National Park",
+    "url": "https://www.flickr.com/photos/50693818@N08/13230532283",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "adaptations": "perspective rectification, material masking, illumination reduction, quilting and inferred PBR maps"
+  },
+  "guidance": "authored plane, sample islands and object keep-outs; computed chromaticity ownership",
+  "uv_to_reference_matrix": [
+    [
+      0.12267586735671837,
+      -0.001986141070648113,
+      240.0
+    ],
+    [
+      -0.09028177113283463,
+      0.17131391955335618,
+      361.0
+    ],
+    [
+      -0.00019168104274487253,
+      -1.7623257059876777e-06,
+      1.0
+    ]
+  ],
+  "reference_size": [
+    1023,
+    655
+  ],
+  "native_source_size": [
+    3000,
+    1920
+  ],
+  "owned_uv_pixels": 22214,
+  "plane_coverage": 0.7231,
+  "lighting": {
+    "gain_p05_p95": [
+      0.4545,
+      1.8877
+    ],
+    "clipped_owned_fraction": 0.0,
+    "fitted_log_illumination_std": 0.421979,
+    "method": "masked broad log-luminance field; scalar gain; material color ratios retained",
+    "qualification": "single-image illumination estimate, not measured albedo"
+  },
+  "repeat": {
+    "seed": 7,
+    "patch_size_wh": [
+      24,
+      24
+    ],
+    "eligible_donors": 7802,
+    "selected_donors": [
+      {
+        "source_uv_xywh": [
+          9,
+          275,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          8,
+          18,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          100,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          373,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          22,
+          234,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          6,
+          219,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          405,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          288,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          3,
+          214,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          163,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          473,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          418,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          330,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          301,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          6,
+          3,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          447,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          379,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          22,
+          113,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          3,
+          33,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          95,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          93,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          13,
+          71,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          100,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          260,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          172,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          22,
+          430,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          448,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          429,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          246,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          4,
+          128,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          355,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          479,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          338,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          337,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          292,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          6,
+          6,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          259,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          371,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          22,
+          94,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          2,
+          85,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          357,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          141,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          18
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          12,
+          77,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          183,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          352,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          347,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          359,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          334,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          377,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          330,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          351,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          302,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          361,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          411,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          370,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          215,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          404,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          370,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          431,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          22,
+          94,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          446,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          408,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          183,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          36
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          6,
+          431,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          412,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          162,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          207,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          383,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          481,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          433,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          417,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          250,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          411,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          471,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          392,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          449,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          469,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          456,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          278,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          359,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          103,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          458,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          344,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          231,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          54
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          80,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          406,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          168,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          150,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          393,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          476,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          412,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          402,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          449,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          459,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          22,
+          387,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          436,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          410,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          485,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          446,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          294,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          438,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          175,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          184,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          461,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          334,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          72
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          85,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          431,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          457,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          412,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          351,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          13,
+          483,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          437,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          352,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          203,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          389,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          461,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          355,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          405,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          456,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          212,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          408,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          372,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          71,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          166,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          398,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          360,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          90
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          13,
+          222,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          228,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          5,
+          82,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          373,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          401,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          129,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          265,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          184,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          170,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          228,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          403,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          154,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          335,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          449,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          457,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          419,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          389,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          351,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          135,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          209,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          2,
+          33,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          108
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          414,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          323,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          382,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          396,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          417,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          364,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          13,
+          475,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          377,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          417,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          122,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          147,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          359,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          378,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          441,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          348,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          343,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          473,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          352,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          173,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          208,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          4,
+          67,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          126
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          470,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          394,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          382,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          280,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          359,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          457,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          454,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          401,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          425,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          403,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          239,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          144,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          3,
+          24,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          245,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          340,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          466,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          476,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          209,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          218,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          373,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          421,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          474,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          465,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          486,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          360,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          377,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          166,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          395,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          403,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          283,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          186,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          370,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          141,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          347,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          254,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          406,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          464,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          347,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          211,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          142,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          203,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          457,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          162
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          353,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          374,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          13,
+          262,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          403,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          427,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          439,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          407,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          362,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          369,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          357,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          435,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          444,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          362,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          346,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          430,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          375,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          144,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          361,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          413,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          252,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          342,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          180
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          429,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          154,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          107,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          345,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          163,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          436,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          415,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          408,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          225,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          4,
+          77,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          139,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          178,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          216,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          372,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          427,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          336,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          128,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          412,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          401,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          382,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          2,
+          19,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          198
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          466,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          408,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          150,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          467,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          399,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          401,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          349,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          393,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          22,
+          169,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          6,
+          237,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          198,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          150,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          165,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          405,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          444,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          132,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          448,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          398,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          463,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          211,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          444,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          216
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          409,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          483,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          311,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          103,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          392,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          110,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          417,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          374,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          303,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          7,
+          218,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          358,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          367,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          100,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          484,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          160,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          375,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          341,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          353,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          346,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          418,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          456,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          234
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          471,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          400,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          300,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          111,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          229,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          387,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          171,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          10,
+          8,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          298,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          6,
+          24,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          194,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          379,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          129,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          236,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          436,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          354,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          409,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          339,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          376,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          416,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          476,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          252
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          405,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          420,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          430,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          85,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          232,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          22,
+          448,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          440,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          22,
+          398,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          211,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          6,
+          57,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          233,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          404,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          460,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          158,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          449,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          164,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          232,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          176,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          458,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          424,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          391,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          270
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          335,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          446,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          418,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          134,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          141,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          22,
+          406,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          459,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          363,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          190,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          384,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          13,
+          294,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          371,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          400,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          370,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          180,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          4,
+          10,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          96,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          126,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          449,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          478,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          455,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          450,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          13,
+          477,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          446,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          407,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          267,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          9,
+          136,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          444,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          22,
+          361,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          369,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          355,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          13,
+          297,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          378,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          347,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          370,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          104,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          182,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          156,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          448,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          400,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          482,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          13,
+          295,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          306
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          409,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          449,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          471,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          184,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          204,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          130,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          227,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          426,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          332,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          468,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          442,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          448,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          128,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          259,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          406,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          312,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          364,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          383,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          416,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          397,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          243,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          324
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          251,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          230,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          427,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          427,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          374,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          129,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          250,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          22,
+          455,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          384,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          14,
+          417,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          401,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          271,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          175,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          353,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          462,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          366,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          369,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          16,
+          127,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          13,
+          240,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          236,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          258,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          342
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          250,
+          24,
+          24
+        ],
+        "output_xy": [
+          0,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          403,
+          24,
+          24
+        ],
+        "output_xy": [
+          18,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          363,
+          24,
+          24
+        ],
+        "output_xy": [
+          36,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          396,
+          24,
+          24
+        ],
+        "output_xy": [
+          54,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          371,
+          24,
+          24
+        ],
+        "output_xy": [
+          72,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          401,
+          24,
+          24
+        ],
+        "output_xy": [
+          90,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          434,
+          24,
+          24
+        ],
+        "output_xy": [
+          108,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          18,
+          443,
+          24,
+          24
+        ],
+        "output_xy": [
+          126,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          362,
+          24,
+          24
+        ],
+        "output_xy": [
+          144,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          396,
+          24,
+          24
+        ],
+        "output_xy": [
+          162,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          484,
+          24,
+          24
+        ],
+        "output_xy": [
+          180,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          455,
+          24,
+          24
+        ],
+        "output_xy": [
+          198,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          216,
+          24,
+          24
+        ],
+        "output_xy": [
+          216,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          2,
+          17,
+          24,
+          24
+        ],
+        "output_xy": [
+          234,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          19,
+          52,
+          24,
+          24
+        ],
+        "output_xy": [
+          252,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          215,
+          24,
+          24
+        ],
+        "output_xy": [
+          270,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          21,
+          418,
+          24,
+          24
+        ],
+        "output_xy": [
+          288,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          390,
+          24,
+          24
+        ],
+        "output_xy": [
+          306,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          20,
+          441,
+          24,
+          24
+        ],
+        "output_xy": [
+          324,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          17,
+          321,
+          24,
+          24
+        ],
+        "output_xy": [
+          342,
+          360
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          15,
+          290,
+          24,
+          24
+        ],
+        "output_xy": [
+          360,
+          360
+        ]
+      }
+    ],
+    "all_donors_fully_owned": true,
+    "board_pitch_uv_pixels": null,
+    "detected_seam_rows": [],
+    "method": "masked overlap-ranked quilting",
+    "rotation": 0,
+    "mirror": false,
+    "seam_rgb_mae_255": 0.0
+  },
+  "region_mesh_triangles": 456,
+  "warnings": [],
+  "qualification": "review candidate; shape, roughness and absolute lighting unmeasured",
+  "map_contract": {
+    "basecolor": "scalar illumination-reduced photographic color; not measured albedo",
+    "normal": "OpenGL tangent-space; inferred from image detail",
+    "height": "16-bit appearance-derived relief prior; no metric scale",
+    "roughness": "constant authored prior",
+    "metallic": "zero prior",
+    "ao": "white neutral default"
+  }
+}

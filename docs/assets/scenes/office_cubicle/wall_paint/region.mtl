@@ -1,0 +1,4 @@
+newmtl material_region
+Kd 1 1 1
+map_Kd area-neutral.png
+map_d owner-mask.png

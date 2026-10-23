@@ -1,0 +1,953 @@
+{
+  "id": "carpet",
+  "label": "Office carpet",
+  "plane_quad": [
+    [
+      260,
+      655
+    ],
+    [
+      946,
+      641
+    ],
+    [
+      984,
+      767
+    ],
+    [
+      207,
+      767
+    ]
+  ],
+  "uv_size": [
+    1024,
+    240
+  ],
+  "seeds": [
+    [
+      [
+        785,
+        681
+      ],
+      [
+        852,
+        681
+      ],
+      [
+        852,
+        736
+      ],
+      [
+        785,
+        736
+      ]
+    ],
+    [
+      [
+        567,
+        711
+      ],
+      [
+        667,
+        711
+      ],
+      [
+        667,
+        751
+      ],
+      [
+        567,
+        751
+      ]
+    ]
+  ],
+  "exclude": [
+    [
+      [
+        546,
+        594
+      ],
+      [
+        775,
+        594
+      ],
+      [
+        775,
+        700
+      ],
+      [
+        546,
+        700
+      ]
+    ],
+    [
+      [
+        335,
+        595
+      ],
+      [
+        549,
+        595
+      ],
+      [
+        549,
+        687
+      ],
+      [
+        335,
+        687
+      ]
+    ]
+  ],
+  "pattern": "quilt",
+  "roughness": 0.95,
+  "relief_strength": 0.12,
+  "excluded_elements": [
+    "chair base",
+    "file cabinet",
+    "desk legs and foreground objects"
+  ],
+  "folder": "office_cubicle/carpet",
+  "source_sha256": "ad5c0f0a4c201994a609285b0e98d8168beea1702f98f4f697d2d7fb732aceb7",
+  "source_credit": {
+    "title": "my office",
+    "author": "Robbie Sproule",
+    "url": "https://www.flickr.com/photos/85278812@N00/1725317",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "adaptations": "perspective rectification, material masking, illumination reduction, quilting and inferred PBR maps"
+  },
+  "guidance": "authored plane, sample islands and object keep-outs; computed chromaticity ownership",
+  "uv_to_reference_matrix": [
+    [
+      0.5678288258933419,
+      -0.3184870465205194,
+      260.0
+    ],
+    [
+      -0.08330618008037369,
+      0.11020524409645736,
+      655.0
+    ],
+    [
+      -0.00010861301183881842,
+      -0.0004672933543226431,
+      1.0
+    ]
+  ],
+  "reference_size": [
+    1024,
+    768
+  ],
+  "native_source_size": [
+    1600,
+    1200
+  ],
+  "owned_uv_pixels": 165159,
+  "plane_coverage": 0.672,
+  "lighting": {
+    "gain_p05_p95": [
+      0.8623,
+      1.561
+    ],
+    "clipped_owned_fraction": 6.1e-05,
+    "fitted_log_illumination_std": 0.184654,
+    "method": "masked broad log-luminance field; scalar gain; material color ratios retained",
+    "qualification": "single-image illumination estimate, not measured albedo"
+  },
+  "repeat": {
+    "seed": 7,
+    "patch_size_wh": [
+      64,
+      64
+    ],
+    "eligible_donors": 75204,
+    "selected_donors": [
+      {
+        "source_uv_xywh": [
+          274,
+          145,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          322,
+          156,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          375,
+          166,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          363,
+          139,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          620,
+          137,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          416,
+          134,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          636,
+          127,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          641,
+          121,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          0
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          182,
+          115,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          650,
+          135,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          272,
+          169,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          431,
+          150,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          472,
+          139,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          556,
+          165,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          472,
+          166,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          347,
+          168,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          48
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          301,
+          111,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          577,
+          152,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          596,
+          140,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          406,
+          173,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          536,
+          125,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          542,
+          139,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          703,
+          151,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          410,
+          168,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          96
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          389,
+          110,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          541,
+          148,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          576,
+          160,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          271,
+          107,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          432,
+          159,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          339,
+          140,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          565,
+          172,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          632,
+          151,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          144
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          431,
+          136,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          476,
+          155,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          351,
+          132,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          451,
+          150,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          328,
+          107,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          185,
+          119,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          329,
+          123,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          158,
+          98,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          192
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          517,
+          173,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          352,
+          107,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          406,
+          163,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          640,
+          152,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          485,
+          170,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          626,
+          126,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          666,
+          169,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          596,
+          169,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          240
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          533,
+          169,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          435,
+          145,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          331,
+          135,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          495,
+          146,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          607,
+          158,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          552,
+          133,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          478,
+          169,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          265,
+          87,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          288
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          310,
+          151,
+          64,
+          64
+        ],
+        "output_xy": [
+          0,
+          320
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          314,
+          118,
+          64,
+          64
+        ],
+        "output_xy": [
+          48,
+          320
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          176,
+          138,
+          64,
+          64
+        ],
+        "output_xy": [
+          96,
+          320
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          240,
+          127,
+          64,
+          64
+        ],
+        "output_xy": [
+          144,
+          320
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          318,
+          121,
+          64,
+          64
+        ],
+        "output_xy": [
+          192,
+          320
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          320,
+          121,
+          64,
+          64
+        ],
+        "output_xy": [
+          240,
+          320
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          400,
+          171,
+          64,
+          64
+        ],
+        "output_xy": [
+          288,
+          320
+        ]
+      },
+      {
+        "source_uv_xywh": [
+          453,
+          166,
+          64,
+          64
+        ],
+        "output_xy": [
+          320,
+          320
+        ]
+      }
+    ],
+    "all_donors_fully_owned": true,
+    "board_pitch_uv_pixels": null,
+    "detected_seam_rows": [],
+    "method": "masked overlap-ranked quilting",
+    "rotation": 0,
+    "mirror": false,
+    "seam_rgb_mae_255": 0.0
+  },
+  "region_mesh_triangles": 4670,
+  "warnings": [],
+  "qualification": "review candidate; shape, roughness and absolute lighting unmeasured",
+  "map_contract": {
+    "basecolor": "scalar illumination-reduced photographic color; not measured albedo",
+    "normal": "OpenGL tangent-space; inferred from image detail",
+    "height": "16-bit appearance-derived relief prior; no metric scale",
+    "roughness": "constant authored prior",
+    "metallic": "zero prior",
+    "ao": "white neutral default"
+  }
+}

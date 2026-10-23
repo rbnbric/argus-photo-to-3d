@@ -18,7 +18,7 @@ The material candidates are appearance proposals. Their normal and height priors
 - [“Community Building (2014) 8247”](https://www.flickr.com/photos/50693818@N08/13230532283) by Grand Canyon National Park, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Argus adapted it through UV rectification, source overlays, proxy geometry, and inferred material maps and previews.
 - [“my office”](https://www.flickr.com/photos/85278812@N00/1725317) by Robbie Sproule, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Argus made the same kinds of adaptations.
 
-Their authored material labels and face boundaries are proposals. Their PBR parameters are not measured. The gallery credit receipt is in `docs/gallery/SURFACE-SOURCE-CREDITS.txt`.
+The regional material rebuild uses the 3000 × 1920 building image and 1600 × 1200 office image. Adaptations include material ownership masks, regional perspective rectification, scalar illumination reduction, constrained quilting, regional UV meshes, inferred normal/height maps and illustrative lit previews. Each region report includes the original author, source URL, CC BY 2.0 license and source hash. Their authored material labels and face boundaries are proposals. Their PBR parameters are not measured. The gallery credit receipt is in `docs/gallery/SURFACE-SOURCE-CREDITS.txt`.
 
 ## Method foundations
 
