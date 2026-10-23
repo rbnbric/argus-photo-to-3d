@@ -42,8 +42,8 @@
       "sha256": "143d21ca5cf82e455e3e773c1bd66b966f0e226605cb04d655d373f246d3fd25"
     },
     "09-material-extraction-and-controls.jpg": {
-      "bytes": 210190,
-      "sha256": "dc52b07b099a4b1876bd88ff73706953c8fa576ebd611e49502add64835be8c1"
+      "bytes": 399227,
+      "sha256": "a6e1593ca965525e3962d5e161b6acd697b19ea7c11a669ebbc653d8f65fc3d6"
     },
     "10-two-scene-extraction-wip.jpg": {
       "bytes": 202630,
@@ -82,13 +82,22 @@
   ],
   "material_sources": [
     {
-      "id": "3937990893",
-      "title": "brick and plaster texture",
-      "author": "\u2020 David Gunter",
-      "page": "https://www.flickr.com/photos/dg_pics/3937990893/",
+      "id": "424540015",
+      "title": "Abstract  - Peeling Paint",
+      "author": "Paul Stevenson",
+      "page": "https://www.flickr.com/photos/53496815@N00/424540015/",
       "license": "CC BY 2.0",
-      "license_url": "https://creativecommons.org/licenses/by/2.0/",
-      "sha256": "c89dc0d8904f23409912e9b3950cbe0e86fe2fefeef2fb9bf84257e7541cc181"
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "sha256": "f5cc039c04a2ec2416d17b9bd1f812efa8ef2f33a531a20e500ef027f32e549f"
+    },
+    {
+      "id": "15940045866",
+      "title": "The face in the door",
+      "author": "sagesolar",
+      "page": "https://www.flickr.com/photos/62356799@N06/15940045866/",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "sha256": "82140e6ee9b7ca09e814f354e2a61002fc21cc04fa10e9ac355580aa80f9cfed"
     }
   ]
 }

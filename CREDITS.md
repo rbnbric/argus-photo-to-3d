@@ -8,7 +8,10 @@ The twelve fox source photographs come from John Davies, [Photogrammetry-example
 
 ## Real-photo material extraction
 
-[“brick and plaster texture”](https://www.flickr.com/photos/dg_pics/3937990893/) by David Gunter, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Argus selected a pale plaster crop, built a repeating sample, and rendered orb and cube previews; the source photo and a mixed crop remain visible in the pass/fail plate. This is a bounded repeat study, not a physical PBR qualification.
+- [“Abstract - Peeling Paint”](https://www.flickr.com/photos/53496815@N00/424540015/) by Paul Stevenson, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Argus made source-zone, offset, quilt, opt-in mirror, and editable normal-prior previews from the blue paint.
+- [“The face in the door”](https://www.flickr.com/photos/62356799@N06/15940045866/) by sagesolar, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Argus cropped a weathered-wood region and made offset, quilt, adaptive-quilt, and editable height-prior previews.
+
+The material candidates are appearance proposals. Their normal and height priors are inferred, not measured physical PBR. The source photographs and material adaptations are credited again in `docs/gallery/SURFACE-SOURCE-CREDITS.txt`.
 
 ## Oblique-photo studies
 

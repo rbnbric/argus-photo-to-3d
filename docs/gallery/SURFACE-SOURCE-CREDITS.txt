@@ -1,11 +1,16 @@
 Argus real-photo material extraction (page 09)
 
-brick and plaster texture — † David Gunter
-https://www.flickr.com/photos/dg_pics/3937990893/
-CC BY 2.0: https://creativecommons.org/licenses/by/2.0/
-Source SHA-256: c89dc0d8904f23409912e9b3950cbe0e86fe2fefeef2fb9bf84257e7541cc181
+Abstract  - Peeling Paint — Paul Stevenson
+https://www.flickr.com/photos/53496815@N00/424540015/
+CC BY 2.0: https://creativecommons.org/licenses/by/2.0/deed.en
+Source SHA-256: f5cc039c04a2ec2416d17b9bd1f812efa8ef2f33a531a20e500ef027f32e549f
 
-Argus modifications: selected a plaster crop, built a repeating sample, and rendered preview forms.
+The face in the door — sagesolar
+https://www.flickr.com/photos/62356799@N06/15940045866/
+CC BY 2.0: https://creativecommons.org/licenses/by/2.0/deed.en
+Source SHA-256: 82140e6ee9b7ca09e814f354e2a61002fc21cc04fa10e9ac355580aa80f9cfed
+
+Argus modifications: selected material zones, produced offset, quilt, adaptive quilt, and opt-in mirror repeats, and inferred editable normal/height priors. These are unqualified physical PBR proposals.
 
 Argus two-photo scene extraction WIP (page 10)
 
