@@ -2,7 +2,7 @@
 
 **Video file on Robin's Windows PC:** `%USERPROFILE%\Documents\Work\argus-capture-studio\argus-community-demo-20261022\argus-community-demo.mp4`
 
-**Thumbnail:** [youtube-thumbnail.jpg](docs/youtube-thumbnail.jpg) (1280 × 720). It is a frame from the video. The file is also accessible through the public repository.
+**Thumbnail:** [youtube-thumbnail-closeup.png](docs/youtube-thumbnail-closeup.png). An AI-assisted editorial close-up based on the credited fox photograph, preserving the Argus layout; it is promotional artwork, not a diagnostic render. Windows filename: `youtube-thumbnail-closeup.png` in the same folder as the video.
 
 **Title**
 
