@@ -1,3 +1,12 @@
+Argus real-photo material extraction (page 09)
+
+brick and plaster texture — † David Gunter
+https://www.flickr.com/photos/dg_pics/3937990893/
+CC BY 2.0: https://creativecommons.org/licenses/by/2.0/
+Source SHA-256: c89dc0d8904f23409912e9b3950cbe0e86fe2fefeef2fb9bf84257e7541cc181
+
+Argus modifications: selected a plaster crop, built a repeating sample, and rendered preview forms.
+
 Argus two-photo scene extraction WIP (page 10)
 
 Grand Canyon National Park: Community Building (2014) 8247 — Grand Canyon National Park

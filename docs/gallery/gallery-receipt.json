@@ -41,9 +41,9 @@
       "bytes": 149385,
       "sha256": "143d21ca5cf82e455e3e773c1bd66b966f0e226605cb04d655d373f246d3fd25"
     },
-    "09-synthetic-wall-four-materials.jpg": {
-      "bytes": 177780,
-      "sha256": "f444be1417fc52d897ed47560af7ab10b7de33f2af6e28b94191b8b2f54589e4"
+    "09-material-extraction-and-controls.jpg": {
+      "bytes": 210190,
+      "sha256": "dc52b07b099a4b1876bd88ff73706953c8fa576ebd611e49502add64835be8c1"
     },
     "10-two-scene-extraction-wip.jpg": {
       "bytes": 202630,
@@ -78,6 +78,17 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/",
       "sha256": "f46dc9c58cd732c4a23f12d979d359a090c869f9c52390876cb64a2bb0e61c49",
       "publication_note": "UV rectification, roughness/height/normal priors, neutral proxy and lit previews are Argus adaptations of a CC BY 2.0 source"
+    }
+  ],
+  "material_sources": [
+    {
+      "id": "3937990893",
+      "title": "brick and plaster texture",
+      "author": "\u2020 David Gunter",
+      "page": "https://www.flickr.com/photos/dg_pics/3937990893/",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "sha256": "c89dc0d8904f23409912e9b3950cbe0e86fe2fefeef2fb9bf84257e7541cc181"
     }
   ]
 }
