@@ -1,6 +1,6 @@
 # Argus — inspectable photo to 3D studies
 
-Argus is an experimental Blender-assisted workflow for reconstructing a model and material studies from photographs. This public repository contains the **working browser demonstration**, the source-bound diagnostic method used on Nebius, and review artifacts. The full reconstruction pipeline is still being consolidated; this is a documented demonstration, not a one-click production release.
+Argus is an experimental Blender-assisted 2D-to-3D texture maker and photogrammetry-to-PBR workflow. It also studies how those same material and UV steps can be recombined on coarse scene geometry. This public repository contains the **working browser demonstration**, the source-bound diagnostic method used on Nebius, and review artifacts. The full reconstruction pipeline is still being consolidated; this is a documented demonstration, not a one-click production release.
 
 ## Try it
 
@@ -22,7 +22,7 @@ Open `http://127.0.0.1:8000/`.
 - A three-state showroom: neutral shape, base color, and base color plus normal detail.
 - Source-bound CUDA image diagnostics run as a Nebius AI Cloud Serverless Job on an NVIDIA H100, with twenty-four verified heatmaps and a per-view report. `examples/cloud_pixel_audit.py` is the published audit stage.
 - One NVIDIA Nemotron 3 Super diagnostic review through Nebius Token Factory. It recommended a next test from measured evidence; deterministic checks retained final qualification authority.
-- Two CC BY 2.0 oblique-photo studies with proposed surface segmentation, face UVs, repeat swatches, and lit previews.
+- Two CC BY 2.0 oblique-photo scene recombinations of the same texture and UV procedure, shown as WIP with proposed face UVs, repeat swatches, and lit previews.
 
 The mesh and textures in this demonstration were built with local compute. The Nebius job processed saved photo/render pairs; it did **not** generate the mesh. Captured-light fitting and physical PBR qualification remain review-only. The local full-resolution comparison and the resampled cloud audit use different masks and sampling, so their scores are not interchangeable.
 

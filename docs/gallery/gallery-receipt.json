@@ -41,13 +41,13 @@
       "bytes": 149385,
       "sha256": "143d21ca5cf82e455e3e773c1bd66b966f0e226605cb04d655d373f246d3fd25"
     },
-    "09-real-photo-building-uv-materials.jpg": {
-      "bytes": 228125,
-      "sha256": "c7272dca53cada22f481ae12cd5fe434e987d23f93a5cb80be225d291933428a"
+    "09-synthetic-wall-four-materials.jpg": {
+      "bytes": 177780,
+      "sha256": "f444be1417fc52d897ed47560af7ab10b7de33f2af6e28b94191b8b2f54589e4"
     },
-    "10-real-photo-office-uv-materials.jpg": {
-      "bytes": 172844,
-      "sha256": "50517728ab132a8a777ca3c682fa35556d8de26e8a9976b4d0aebaad0026e587"
+    "10-two-scene-extraction-wip.jpg": {
+      "bytes": 202630,
+      "sha256": "4fe9f17367c0abd9f8763f542595cda32c131fc1d153fb411f6db5fe89f4cc5f"
     },
     "11-report-validation.jpg": {
       "bytes": 140959,
