@@ -32,7 +32,7 @@
     const cloud = cloudViews[view - 1];
     const button = document.createElement("button");
     button.type = "button";
-    button.textContent = two(view);
+    button.innerHTML = `<i class="camera-result" aria-hidden="true"></i><img src="assets/fox/view-${two(view)}-original.jpg" alt="" loading="lazy"><span>${two(view)}</span>`;
     button.dataset.view = String(view);
     button.title = `Camera ${two(view)}: ${cloud.candidate_minus_control_mae_255 < 0 ? "lower" : "higher"} error in the cloud audit`;
     button.setAttribute("aria-label", `Select camera ${two(view)}`);
@@ -69,6 +69,7 @@
     for (const button of grid.querySelectorAll("button")) {
       button.setAttribute("aria-current", button.dataset.view === String(selected) ? "true" : "false");
     }
+    if(grid.scrollWidth>grid.clientWidth){const active=grid.querySelector('[aria-current="true"]');grid.scrollLeft=active.offsetLeft-grid.offsetLeft-(grid.clientWidth-active.offsetWidth)/2;}
     showHeatmap();
     updateSlider();
   }
@@ -101,82 +102,58 @@
       showHeatmap();
     });
   }
-  selectView(3);
 
-  const model = byId("fox-model");
-  const rotate = byId("rotate-toggle");
-  const download = byId("model-download");
-  const turntable = byId("turntable-frame");
-  let turntableIndex = 9;
-  let turntableRunning = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if (!turntableRunning) rotate.textContent = "Play rotation";
-  window.setInterval(() => {
-    if (turntableRunning && !model.parentElement.classList.contains("model-ready")) {
-      turntableIndex = (turntableIndex + 1) % 36;
-      turntable.src = `assets/turntable/fox-turntable-${two(turntableIndex)}.webp`;
+  let draggingPhoto=false;
+  divider.addEventListener("pointerdown",e=>{draggingPhoto=true;divider.setPointerCapture(e.pointerId);e.preventDefault();});
+  divider.addEventListener("pointermove",e=>{if(!draggingPhoto)return;const r=divider.parentElement.getBoundingClientRect();slider.value=Math.round(Math.max(0,Math.min(100,100*(e.clientX-r.left)/r.width)));updateSlider();});
+  for(const event of ["pointerup","pointercancel"])divider.addEventListener(event,()=>{draggingPhoto=false;});
+  divider.addEventListener("keydown",e=>{if(!["ArrowLeft","ArrowRight","Home","End"].includes(e.key))return;e.preventDefault();slider.value=e.key==="Home"?0:e.key==="End"?100:Number(slider.value)+(e.key==="ArrowRight"?5:-5);updateSlider();});
+  let showroomFrame=0,showroomLight="warm",showroomPlaying=false;
+  function showRoom(){byId("showroom-preview").src=`assets/showroom/showroom-${two(showroomFrame)}.webp`;}
+  // 96 saved frames: warm 0–47, cool 48–95; only animate while visible.
+  for(const b of document.querySelectorAll("[data-showroom-light]"))b.addEventListener("click",()=>{showroomLight=b.dataset.showroomLight;showroomFrame=showroomFrame%48+(showroomLight==="cool"?48:0);document.querySelectorAll("[data-showroom-light]").forEach(x=>{x.classList.toggle("active",x===b);x.setAttribute("aria-pressed",String(x===b));});showRoom();});
+  byId("showroom-toggle").addEventListener("click",()=>{showroomPlaying=!showroomPlaying;byId("showroom-toggle").textContent=showroomPlaying?"Pause rotation":"Play rotation";byId("showroom-toggle").setAttribute("aria-pressed",String(showroomPlaying));});
+  setInterval(()=>{if(!showroomPlaying||document.hidden||byId("layers").hidden)return;showroomFrame=(showroomFrame+1)%48+(showroomLight==="cool"?48:0);showRoom();},180);
+
+  selectView(1);
+  function switchPanel(name) {
+    name = ({documents:"proof", top:"compare"})[name] || name;
+    if (!document.querySelector(`[data-tab="${name}"]`)) name = "compare";
+    for (const panel of document.querySelectorAll("[data-panel]")) panel.hidden = panel.id !== name;
+    for (const tab of document.querySelectorAll("[data-tab]")) {
+      const active = tab.dataset.tab === name;
+      tab.setAttribute("aria-selected", String(active)); tab.tabIndex = active ? 0 : -1;
     }
-  }, 120);
-  if (download) download.hidden = true;
-  model.addEventListener("load", () => {
-    model.parentElement.classList.add("model-ready");
-    byId("model-hint").textContent = "Drag to orbit · scroll to zoom";
-    rotate.textContent = model.hasAttribute("auto-rotate") ? "Pause rotation" : "Play rotation";
-    if (download) download.hidden = false;
-  });
-  model.addEventListener("error", () => model.parentElement.classList.remove("model-ready"));
-  rotate.addEventListener("click", () => {
-    if (model.parentElement.classList.contains("model-ready")) {
-      const running = model.hasAttribute("auto-rotate");
-      if (running) model.removeAttribute("auto-rotate");
-      else model.setAttribute("auto-rotate", "");
-      rotate.textContent = running ? "Play rotation" : "Pause rotation";
-    } else {
-      turntableRunning = !turntableRunning;
-      rotate.textContent = turntableRunning ? "Pause rotation" : "Play rotation";
-    }
-  });
-  if (location.protocol === "http:" || location.protocol === "https:") {
-    fetch("assets/fox/model.glb", {method: "HEAD"})
-      .then((response) => {
-        if (response.ok) model.src = "assets/fox/model.glb";
-      })
-      .catch(() => {});
+    history.replaceState(null, "", `#${name}`);
+    document.querySelector(`[data-tab="${name}"]`).scrollIntoView({block:"nearest",inline:"nearest"});
+    window.dispatchEvent(new CustomEvent("argus-panel", {detail:name}));
+    window.scrollTo({top:0,behavior:"instant"});
   }
-
-  const showroom = byId("showroom-preview");
-  const showroomToggle = byId("showroom-toggle");
-  let showroomFrame = 0;
-  let showroomLight = "warm";
-  let showroomPlaying = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  let showroomVisible = false;
-  if (!showroomPlaying) showroomToggle.textContent = "Play rotation";
-  const updateShowroom = () => {
-    const frame = showroomFrame + (showroomLight === "cool" ? 48 : 0);
-    showroom.src = `assets/showroom/showroom-${two(frame)}.webp`;
-    showroom.alt = `Three synchronized fox material states under a ${showroomLight} display light, orbit frame ${showroomFrame + 1} of 48`;
-  };
-  new IntersectionObserver((entries) => {
-    showroomVisible = entries.some((entry) => entry.isIntersecting);
-  }, {threshold: 0.05}).observe(showroom);
-  window.setInterval(() => {
-    if (showroomPlaying && showroomVisible) {
-      showroomFrame = (showroomFrame + 1) % 48;
-      updateShowroom();
-    }
-  }, 150);
-  for (const button of document.querySelectorAll("[data-showroom-light]")) {
-    button.addEventListener("click", () => {
-      showroomLight = button.dataset.showroomLight;
-      for (const choice of document.querySelectorAll("[data-showroom-light]")) {
-        const active = choice === button;
-        choice.classList.toggle("active", active);
-        choice.setAttribute("aria-pressed", active ? "true" : "false");
-      }
-      updateShowroom();
+  const tabs = Array.from(document.querySelectorAll("[data-tab]"));
+  tabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => switchPanel(tab.dataset.tab));
+    tab.addEventListener("keydown", event => {
+      if (!["ArrowLeft","ArrowRight","Home","End"].includes(event.key)) return;
+      event.preventDefault();
+      const next = event.key === "Home" ? 0 : event.key === "End" ? tabs.length - 1 : (index + (event.key === "ArrowRight" ? 1 : -1) + tabs.length) % tabs.length;
+      switchPanel(tabs[next].dataset.tab); tabs[next].focus();
     });
-  }
-  showroomToggle.addEventListener("click", () => {
-    showroomPlaying = !showroomPlaying;
-    showroomToggle.textContent = showroomPlaying ? "Pause rotation" : "Play rotation";
   });
+  for (let view=1;view<=12;view++) {
+    const button=document.createElement("button");button.type="button";
+    button.innerHTML=`<img src="assets/fox/view-${two(view)}-original.jpg" alt="Source photograph ${two(view)}" loading="lazy"><span>${two(view)}</span>`;
+    button.setAttribute("aria-label",`Compare source camera ${two(view)}`);
+    button.addEventListener("click",()=>{selectView(view);switchPanel("compare");});
+    byId("source-filmstrip").appendChild(button);
+  }
+  window.addEventListener("hashchange",()=>switchPanel(location.hash.slice(1)));
+  switchPanel(location.hash.slice(1) || "compare");
+
+
+
+  document.querySelectorAll('[data-material-pane]').forEach(button=>button.addEventListener('click',()=>{
+    const lit=button.dataset.materialPane==='lit';byId('material-lit').hidden=!lit;byId('material-methods').hidden=lit;
+    document.querySelectorAll('[data-material-pane]').forEach(b=>{b.classList.toggle('selected',b===button);b.setAttribute('aria-pressed',String(b===button));});
+  }));
+  byId('material-light').addEventListener('input',()=>{const phase=Number(byId('material-light').value);byId('material-light-value').textContent=`${phase+1} / 12`;document.querySelectorAll('[data-lit]').forEach(img=>img.src=`assets/materials/${img.dataset.lit}-${two(phase)}.webp`);});
 })();

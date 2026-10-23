@@ -1,4 +1,6 @@
-# YouTube upload card
+# YouTube video
+
+**Uploaded video:** https://www.youtube.com/watch?v=sbvY6fdppkQ
 
 **Video file on Robin's Windows PC:** `%USERPROFILE%\Documents\Work\argus-capture-studio\argus-community-demo-20261022\argus-community-demo.mp4`
 

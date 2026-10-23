@@ -23,3 +23,11 @@ Their authored material labels and face boundaries are proposals. Their PBR para
 ## Method foundations
 
 Argus was developed with Blender, Python, computer vision, and local GPU tools. We studied and used ideas from the Blender, COLMAP, Nerfstudio, gsplat, Open3D, Manifold, and BiRefNet communities. This repository does not vendor their software. The diagnostic GPU stage ran on Nebius AI Cloud, and a bounded diagnostic call used NVIDIA Nemotron 3 Super through Nebius Token Factory.
+
+## Browser viewer dependencies
+
+- Three.js 0.180.0, MIT; vendored runtime and license in `docs/vendor/three/`.
+- Google Draco decoder, Apache 2.0; vendored decoder and license in `docs/vendor/three/draco/`.
+- Roboto variable font, SIL Open Font License; font and license in `docs/assets/fonts/`.
+
+The web GLB is a Draco-compressed adaptation of the credited fox review model. Its geometry count and embedded material maps are retained; compression quantizes vertex attributes. The original and cleaned splat previews retain all source point positions and colors in the same coordinate frame, but omit Gaussian shape/covariance. These fox-derived assets retain CC BY-SA 4.0. Receipts are beside the assets in `docs/assets/fox/`.

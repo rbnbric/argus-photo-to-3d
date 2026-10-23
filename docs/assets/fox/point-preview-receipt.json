@@ -1,0 +1,26 @@
+{
+  "raw-points": {
+    "source_sha256": "48b4d012cda714aa5020cc2463b42d85060cfc83eb8da0a049abc4c618363e88",
+    "source": "splat.ply",
+    "source_vertices": 55115,
+    "preview_vertices": 55115,
+    "sampling_stride": 1,
+    "frame": "x,z,-y; same model frame as upright GLB",
+    "representation": "point preview; Gaussian scale and covariance omitted",
+    "sha256": "8dee50af8d065d8460f71e2b47633962bd8efca492180716c483ccd844398432",
+    "packed_sha256": "45fa907674c98f3615d23e5ac4ef28e94e73aa679d20c16762e8a21a72108ce1",
+    "parts": 8
+  },
+  "clean-points": {
+    "source_sha256": "cd56364f43582302290ee45ba90c478935b352d0fefcab124f2b2a435bd919e7",
+    "source": "latest-cleaned-splat.ply",
+    "source_vertices": 29765,
+    "preview_vertices": 29765,
+    "sampling_stride": 1,
+    "frame": "x,z,-y; same model frame as upright GLB",
+    "representation": "point preview; Gaussian scale and covariance omitted",
+    "sha256": "39b55d086fcd107f62b37447ce41bbd8d7e95fb23373dda297885609fd7d0357",
+    "packed_sha256": "2e3308b7bdea7b7799cdf408411abdc80ebe7e1ee5ccf5149fd644cffed4d008",
+    "parts": 5
+  }
+}

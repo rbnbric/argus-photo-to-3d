@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Peeling paint",
+    "credit": "Paul Stevenson / CC BY 2.0",
+    "roughness_assumption": 0.72,
+    "tile_pixel_sha256": "f27d46657450e7236a3782d73934d874cef3602384d9c9c93e3610b9d89c00ee",
+    "prior": "NORMAL PRIOR",
+    "frames": 12,
+    "renderer": "same sphere/cube functions and inputs as delivered demo video",
+    "lighting": "illustrative rotating display light",
+    "physical_pbr_qualified": false
+  },
+  {
+    "name": "Weathered wood",
+    "credit": "sagesolar / CC BY 2.0",
+    "roughness_assumption": 0.82,
+    "tile_pixel_sha256": "9d4cfc8638586c00162eafa224cf8415be74941c986d618f4adc0391deeb7660",
+    "prior": "HEIGHT PRIOR",
+    "frames": 12,
+    "renderer": "same sphere/cube functions and inputs as delivered demo video",
+    "lighting": "illustrative rotating display light",
+    "physical_pbr_qualified": false
+  }
+]

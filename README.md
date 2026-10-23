@@ -4,9 +4,9 @@ Argus is an experimental Blender-assisted 2D-to-3D texture maker and photogramme
 
 ## Try it
 
-**[Open the interactive demonstration](https://rbnbric.github.io/argus-photo-to-3d/)**. Select one of twelve fox cameras, slide the source/render comparison, inspect neutral and textured renders, and switch residual heatmaps. The model section plays a 36-frame orbit; the GLB itself is not bundled with this public snapshot. The [real-photo surface studies](https://rbnbric.github.io/argus-photo-to-3d/surface-examples.html) let you switch between two oblique photographs, their proposed UV faces, and material previews. These studies are marked WIP because their proxy shape and PBR values are inferred.
+**[Open the interactive demonstration](https://rbnbric.github.io/argus-photo-to-3d/)**. Select one of twelve fox cameras, slide the source/render comparison, inspect neutral and textured renders, and switch residual heatmaps. The bottom mode strip keeps photo matching, 3D comparison, material layers, textures, and reports in one workspace. A 3.1 MB web GLB supports real orbiting with shared-camera wipe, checker, and blend comparisons. Original and cleaned splats are available as aligned point previews; Gaussian covariance is omitted. The three-state Blender showroom retains its warm/cool lighting and rotation controls. The [real-photo surface studies](https://rbnbric.github.io/argus-photo-to-3d/surface-examples.html) let you switch between two oblique photographs, their proposed UV faces, and material previews. These studies are marked WIP because their proxy shape and PBR values are inferred.
 
-The [12-image Devpost gallery](https://rbnbric.github.io/argus-photo-to-3d/gallery/) is also available as a [ZIP for direct upload](downloads/Argus-Devpost-Images-20261023.zip). The [2:27 demo video](https://rbnbric.github.io/argus-photo-to-3d/argus-community-demo.mp4) is captioned. [YouTube upload text and thumbnail](YOUTUBE_UPLOAD.md) are ready.
+The [12-image Devpost gallery](https://rbnbric.github.io/argus-photo-to-3d/gallery/) is also available as a [ZIP for direct upload](downloads/Argus-Devpost-Images-20261023.zip). The [2:27 demo video](https://www.youtube.com/watch?v=sbvY6fdppkQ) is captioned. [YouTube description and thumbnail](YOUTUBE_UPLOAD.md) are included.
 
 To run the site locally:
 

@@ -1,0 +1,17 @@
+{
+  "source_sha256": "55a21df32255fb05910a897cd82ad8b4430219cb60956da833f26b936dcb0774",
+  "web_sha256": "614f86c2bdd1c0858215c00ea87bb36da406b754db111be354601f84a921f661",
+  "source_bytes": 20204696,
+  "web_bytes": 3132024,
+  "triangles": 118792,
+  "compression": "Draco; position 16 bits, normal 12 bits, texture coordinates 14 bits",
+  "material_maps": "original embedded base color and normal",
+  "frame": "original upright GLB; no per-state centering or rescaling",
+  "tool": "@gltf-transform/cli 4.2.1",
+  "embedded_material_maps_sha256": [
+    "e55c108eacf7580f9bc11e963e689cee2b645af8892f88ff0a9e2bf94bfcc765",
+    "501e7918026d1ceab7b477fa353477d128a362b1323428ba15dfd84f90f71c92"
+  ],
+  "material_maps_identical_to_source": true,
+  "triangle_count_matches_source": true
+}
