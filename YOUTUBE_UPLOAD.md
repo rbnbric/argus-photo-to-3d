@@ -26,15 +26,16 @@ The real-photo material examples use “Abstract - Peeling Paint” by Paul Stev
 
 Chapters:
 00:00 From photo to model
-00:14 One mesh, three material states
-00:26 Camera-matched comparison
-00:45 Recesses under review
-00:53 Residual heatmaps
-01:01 Real-photo texture methods
-01:19 Lit forms and WIP scenes
-01:35 Diagnostic contracts
-01:45 Nebius GPU and Nemotron evidence
-02:04 Qualification and next steps
+00:05 Twelve photos, four sets
+00:21 One mesh, three material states
+00:33 Camera-matched comparison
+00:52 Recesses under review
+01:00 Residual heatmaps
+01:08 Real-photo texture methods
+01:26 Lit forms and WIP scenes
+01:42 Diagnostic contracts
+01:52 Nebius GPU and Nemotron evidence
+02:07 Qualification and next steps
 
 #Argus #Photogrammetry #Blender #Nebius #NVIDIA
 
