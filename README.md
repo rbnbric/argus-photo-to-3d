@@ -43,7 +43,7 @@ The second command requires a CUDA GPU. The browser demo runs without one. See [
 ## Contents
 
 - `docs/`: GitHub Pages demonstration, image gallery, source studies, and evidence.
-- `examples/`: runnable CUDA audit and a manifest packer for the public comparison images.
+- `examples/`: runnable CUDA audit, public-image manifest packer, and standalone guided regional material extractor.
 - `downloads/`: direct-upload gallery and study artifact ZIPs.
 - `CREDITS.md`: attribution and media license boundaries.
 - `LICENSE`: MIT license for original code and original site design only.

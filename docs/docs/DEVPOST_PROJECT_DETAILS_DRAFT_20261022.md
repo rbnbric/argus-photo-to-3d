@@ -1,6 +1,6 @@
 # Argus · Devpost Project Details draft
 
-Paste the **Project Story** block into Devpost's “About the project” field. This reflects the demonstrated build on 2026-10-22. The public demo, repository, and video URLs are still pending; local file paths are review assets, not judge-accessible links.
+Paste the **Project Story** block into Devpost's “About the project” field. Updated 23 October 2026 to match the published demo, current material studies, and uploaded video. Public links are listed below.
 
 ## Project Story
 
@@ -16,13 +16,15 @@ Argus is an experimental photo-to-3D workflow built alongside a Blender plugin. 
 
 Our current demo uses twelve photographs of a small stone fox from John Davies's photogrammetry set. You can rotate the textured model, compare it with each source photograph, slide a matched render over the image, and inspect a neutral mesh and spatial error maps. A showroom turns the same mesh through neutral shape, base color, and normal-detail states. Separate control image sets, including failures, still produce reviewable models and reports that say where the output falls short.
 
-A six-view synthetic wall fixture tests the material side: partitioning a source into regions and previewing repeating textures. The larger question connecting these pieces is whether a neutralized material, surface detail, and model can reproduce the photograph when we put reconstructed lighting back on it. We have an inspectable working candidate and a way to test that question; the current light fit has not passed its qualification gates.
+The main material studies use licensed photographs of peeling paint and weathered wood to show source selection, offset, quilting, adaptive quilting, and optional mirroring. An additional scene study applies the same procedure to eight material regions across a national park building and an office: selecting material pixels within a surface, unwrapping them, reducing captured light, and synthesizing reusable repeats. These are guided selections with inspectable masks and donor patches; they are not automatic recognition of every material.
+
+The larger question connecting these pieces is whether a neutralized material, surface detail, and model can reproduce the photograph when we put reconstructed lighting back on it. We have an inspectable working candidate and a way to test that question; the current light fit has not passed its qualification gates.
 
 ### How we built it
 
 We combined Python, Blender, computer vision, local GPU processing, and deterministic qualification reports. It is a buffet of techniques, but each has a job. Original photos keep their own masks and identities. We render each candidate through saved cameras, compare it with the corresponding photo, and retain the intermediate results. A good-looking orbit never gets to stand in for a source match.
 
-We used **NVIDIA Nemotron 3 Super through Nebius Token Factory** for a live diagnostic review of measured results. It recommended a next material test and cited the evidence behind it; deterministic checks still decide whether a candidate passes. We also ran a **Nebius AI Cloud Serverless Job on an NVIDIA H100**. Its CUDA audit compared the twelve source views with saved neutral and textured renders, producing 24 heatmaps and a per-view report. We downloaded and verified every output. The demonstrated mesh and textures were reconstructed locally; the cloud job ran a real diagnostic stage, not cloud mesh generation. That cloud path matters for people who simply do not have the hardware to run the local stages.
+We used **NVIDIA Nemotron 3 Super through Nebius Token Factory** for a live diagnostic review of measured results. It recommended a next material test and cited the evidence behind it; deterministic checks still decide whether a candidate passes. We also ran a **Nebius AI Cloud Serverless Job on an NVIDIA H100**. Its CUDA audit compared the twelve source views with saved neutralized-color control and material-candidate renders, producing 24 heatmaps and a per-view report. We downloaded and verified every output. The demonstrated mesh and textures were reconstructed locally; the cloud job ran a real diagnostic stage, not cloud mesh generation. That cloud path matters for people who simply do not have the hardware to run the local stages.
 
 ### Challenges we ran into
 
@@ -33,6 +35,8 @@ I had little interest in choosing the friendliest image set to hide those proble
 ### Accomplishments that we're proud of
 
 We produced a textured fox GLB with verified Blender tangent export, twelve source-bound camera comparisons, a three-state material showroom, and a 2:27 demo video. The fox is a usable review candidate with a report attached, including the awkward regions. The material candidate improved six of twelve views in the full-resolution local comparison, but its average color error was slightly worse than the neutral control. Argus says so.
+
+We also produced reusable texture candidates from licensed real-world photos, with offset, quilt, adaptive quilt, and optional mirror methods. The scene extension now separates eight material regions, including the cabin’s wooden siding, and provides masked regional UVs, lighting comparisons, repeat textures, and material downloads.
 
 Nemotron 3 Super returned a bounded, evidence-based recommendation through Token Factory. The Nebius H100 job completed its twelve-view diagnostic in 5.845 seconds of reported execution, including 3.114 seconds of CUDA audit processing. We verified all 24 heatmaps and the JSON report after download. That gives us proof of both Nebius integrations in the demonstrated workflow.
 
@@ -52,28 +56,33 @@ Thanks to the Blender, COLMAP, Nerfstudio, gsplat, Open3D, Manifold, and BiRefNe
 
 **Fox source credit:** Photographs by [John Davies](https://github.com/john-davies/Photogrammetry-examples/tree/master/Fox), licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Argus used twelve resized and JPEG-recompressed photos from his set to build and present an experimental reconstruction. Davies does not identify the physical sculpture's maker in his [capture story](https://theretiredengineer.wordpress.com/2018/01/07/photogrammetry-using-a-turntable/).
 
+**Material and scene source credits:** Paul Stevenson’s peeling paint, sagesolar’s weathered door, Grand Canyon National Park’s Community Building, and Robbie Sproule’s office photograph are CC BY 2.0 sources. [Source links and adaptation notes](https://github.com/rbnbric/argus-photo-to-3d/blob/main/CREDITS.md) accompany the demo and material downloads.
+
 ## Built with
 
 Suggested tags: `Python`, `Blender`, `CUDA`, `NumPy`, `computer vision`, `photogrammetry`, `PBR`, `NVIDIA Nemotron 3 Super`, `Nebius Token Factory`, `Nebius AI Cloud`.
 
 ## Try it out links
 
-Add a **public judge-accessible demo URL** and a **public licensed repository URL** here after publication. The local interactive demo is `workspaces/robin/drops/argus-community-demo-20261022/index.html`; that path cannot be entered as a public Devpost URL.
+- Demo: https://rbnbric.github.io/argus-photo-to-3d/
+- Material lab: https://rbnbric.github.io/argus-photo-to-3d/surface-examples.html
+- Public repository and license: https://github.com/rbnbric/argus-photo-to-3d
+- Video: https://www.youtube.com/watch?v=sbvY6fdppkQ
 
 ## Image gallery
 
 Upload the 12 ordered JPGs in `the local Argus-Devpost-Images-20261022 folder`. Each is 1500 × 1000, under 5 MB, and uses the project Roboto font. The same files are retained in the Windows demo folder and a ZIP for sharing; no extraction is needed to upload them.
 
 1. `01-cover-roboto.jpg` — branded cover.
-2. `02-camera-comparison-roboto.jpg` — one camera, source and two render states.
+2. `02-camera-comparison-roboto.jpg` — one camera, source, neutralized-color baseline, and material candidate.
 3. `03-showroom-roboto.jpg` — synchronized neutral, base-color, and normal-map states.
 4. `04-reconstruction-lighting.jpg` — original, selected render, saved F81 light attempt, numerical indicators, and four zoom pairs.
 5. `05-zoom-examples.jpg` — muzzle, chest/front leg, rear paw, and base boundary in matched source/render crops.
 6. `06-report-source.jpg` — source photo, its own mask, and camera-bound render.
-7. `07-report-geometry.jpg` — mesh control with separately labeled normal and depth diagnostics.
+7. `07-report-geometry.jpg` — control render with separately labeled normal and depth diagnostics.
 8. `08-report-lighting.jpg` — effective-light estimate and the held-out qualification result.
-9. `09-report-material-real-wall-trials.jpg` — three photographed wall sources, each with a passing limited tile extraction, a failed mixed crop, and lit sphere/cube previews. This is a private review candidate pending reuse-rights review for the second and third photographs.
-10. `10-report-material-brick-mortar.jpg` — same presentation for brick and mortar.
+9. `09-material-extraction-and-controls.jpg` — licensed peeling-paint and weathered-wood sources with offset, quilt, adaptive quilt, optional mirror, and inferred detail maps.
+10. `10-two-scene-extraction-wip.jpg` — two earlier scene studies with whole-face UVs and coarse proxies. The interactive material lab now extends them with eight regional extractions.
 11. `11-report-validation.jpg` — Nebius heatmap, processing receipt, and non-interchangeable metrics.
 12. `12-report-layer-map.jpg` — one-page map of the five report layers.
 
@@ -81,8 +90,8 @@ The F81 light attempt is **review only**, with 3.13% global and 0.11% local held
 
 ## Demo video URL
 
-Upload `workspaces/robin/drops/argus-community-demo-20261022/argus-community-demo.mp4` to a public or unlisted YouTube/Vimeo page, then paste that URL into Devpost. The measured video duration is **2:27.00**, within the three-minute limit. It has captions and an original instrumental bed but no spoken track.
+Use **https://www.youtube.com/watch?v=sbvY6fdppkQ**. The video is uploaded. The measured file duration is **2:27.00**, within the three-minute limit. It has on-screen captions and an original instrumental bed, with no spoken track.
 
 ## Significant updates during the submission period
 
-Argus existed before this hackathon. During this period we added the twelve-view source-bound fox comparison, tangent-verified textured asset, camera and concavity diagnostics, material fixture, deterministic qualification reports, interactive demo and material showroom, live Nemotron 3 Super diagnostic review through Token Factory, and the verified H100 twelve-view image audit through Nebius AI Cloud. The local reconstruction and limited cloud diagnostic are described separately in the project story and evidence report.
+Argus existed before this hackathon. During this period we added the twelve-view source-bound fox comparison, tangent-verified textured asset, camera and concavity diagnostics, licensed-photo material extraction and repeat methods, guided regional scene materials, deterministic qualification reports, interactive demo and material showroom, live Nemotron 3 Super diagnostic review through Token Factory, and the verified H100 twelve-view image audit through Nebius AI Cloud. The local reconstruction and limited cloud diagnostic are described separately in the project story and evidence report.

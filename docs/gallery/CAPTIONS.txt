@@ -17,7 +17,7 @@ Close crops reveal paw clefts, the under-chest valley, and rear-leg transitions 
 Each photo keeps its own camera, mask, and pixel ownership so background leakage can be found.
 
 07-report-geometry.jpg
-Neutral geometry is checked from the saved cameras, including the recessed areas that remain under review.
+Geometry is checked through the saved control renders, including the recessed areas that remain under review.
 
 08-report-lighting.jpg
 Matched lighting tests ask whether neutralized texture and recovered illumination explain the source photo.

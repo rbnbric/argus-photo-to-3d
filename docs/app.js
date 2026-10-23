@@ -57,7 +57,7 @@
     byId("view-heading").textContent = `Camera ${n}`;
     setImage("original-image", `assets/fox/view-${n}-original.jpg`, `Original fox photograph, camera ${n}`);
     setImage("overlay-image", `assets/fox/view-${n}-candidate-on-photo.jpg`, `Material candidate composited only inside camera ${n}'s own source mask`);
-    setImage("control-image", `assets/fox/view-${n}-neutral-control.jpg`, `Neutral control render for camera ${n}`);
+    setImage("control-image", `assets/fox/view-${n}-neutral-control.jpg`, `Neutralized-color control render for camera ${n}`);
     setImage("candidate-image", `assets/fox/view-${n}-material-candidate.jpg`, `Material candidate render for camera ${n}`);
     byId("local-control").textContent = fixed(local.neutral_control.rgb_mae_255);
     byId("local-candidate").textContent = fixed(local.material_candidate.rgb_mae_255);

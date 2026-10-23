@@ -14,8 +14,8 @@
       "sha256": "f689ff49f427773d4e4f5c1c438498d56ecc4845e65f22d8ab9fbc2255fa55e7"
     },
     "02-camera-comparison-roboto.jpg": {
-      "bytes": 156279,
-      "sha256": "110b63bc851dfb3a6970bbdcfa9d773cf3dd335488b99b08868711db1f1ec77c"
+      "bytes": 157459,
+      "sha256": "7f65312ad00dd390009bbdaa661a95bffb38c3cbc7f9ede5f92cc773e3040681"
     },
     "03-showroom-roboto.jpg": {
       "bytes": 126586,
@@ -34,8 +34,8 @@
       "sha256": "d24621714af6ecbc65cf553825cb9f770096398fb8303c9ca30508fc7d501156"
     },
     "07-report-geometry.jpg": {
-      "bytes": 133394,
-      "sha256": "139e7e7d4068e306221a2c9cadb2c3f2fbbc19d1b248565a4c103ed0402b43e8"
+      "bytes": 133843,
+      "sha256": "59b593690f8ccee2f88bd8d6d5db7ea14552dc85d8d0ad2b6701861ae79820a8"
     },
     "08-report-lighting.jpg": {
       "bytes": 149385,
