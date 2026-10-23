@@ -1,0 +1,15 @@
+Argus real-photo UV and material examples (pages 09–10)
+
+Grand Canyon National Park: Community Building (2014) 8247 — Grand Canyon National Park
+https://www.flickr.com/photos/50693818@N08/13230532283
+CC BY 2.0: https://creativecommons.org/licenses/by/2.0/
+Source SHA-256: 6dc2628ba0ceae8d69fac7d758df5ffa64d363736de3be6fb75fda589d72c478
+UV rectification, roughness/height/normal priors, neutral proxy and lit previews are Argus adaptations of a CC BY 2.0 source
+
+my office — Robbie Sproule
+https://www.flickr.com/photos/85278812@N00/1725317
+CC BY 2.0: https://creativecommons.org/licenses/by/2.0/
+Source SHA-256: f46dc9c58cd732c4a23f12d979d359a090c869f9c52390876cb64a2bb0e61c49
+UV rectification, roughness/height/normal priors, neutral proxy and lit previews are Argus adaptations of a CC BY 2.0 source
+
+Face boundaries and material labels are authored. Proxy geometry and PBR values are unmeasured.

@@ -1,0 +1,607 @@
+{
+  "contract": "argus-fox-delight-and-light/v1",
+  "status": "review",
+  "source_mesh": "/work/argus-fox-models-20261016/recess-union-v1",
+  "source_photo_uv": "/work/argus-fox-models-20261016/recess-union-photo-uv-v1",
+  "source_hashes": {
+    "f79_report": "6e11795cf74c5756cde21046f7aa83508af2b52f8a7c41ed90f2bbfde03897e8",
+    "f79_glb": "269a17b05f65d7f804ecfd713d1f29502296627debb5fa11b28c6baa9ad0c51a",
+    "f79_atlas": "1c0f57809ec759be6ea03fbf0403b0c211a3b9ee11ae0c38598848677493d42c",
+    "f78_vertices": "8f240e1c7d7d054e33cafdac0c61ffb45c02151c7cef2d0fbcf230f9428d3dbf"
+  },
+  "reconstructed_light_status": "weak_proxy",
+  "lighting_selection": "global_normal_fit",
+  "diagnostic_uv_orientation": "glb_v",
+  "photo_covered_texels": 657813,
+  "atlas_texels": 814440,
+  "weak_provenance_texels": 14640,
+  "light_fit_texels": 373058,
+  "dark_residual_candidate_texels": 49806,
+  "geometry_position_error": 0.0,
+  "presentation_inverse_position_error": 0.0,
+  "presentation_model_to_gltf": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ]
+  ],
+  "lighting": {
+    "contract": "argus-fox-effective-light/v1",
+    "status": "weak_proxy",
+    "frame": "F52 model world coordinates, z up",
+    "exposure": {
+      "pair_count": 36,
+      "pairs": [
+        {
+          "views": [
+            1,
+            2
+          ],
+          "pixels": 8607,
+          "median_log_rgb_ratio": [
+            0.27611327171325684,
+            0.29418516159057617,
+            0.30743908882141113
+          ]
+        },
+        {
+          "views": [
+            1,
+            3
+          ],
+          "pixels": 4591,
+          "median_log_rgb_ratio": [
+            0.446921706199646,
+            0.45717960596084595,
+            0.4507995843887329
+          ]
+        },
+        {
+          "views": [
+            1,
+            4
+          ],
+          "pixels": 1724,
+          "median_log_rgb_ratio": [
+            0.422091007232666,
+            0.416118323802948,
+            0.3854285478591919
+          ]
+        },
+        {
+          "views": [
+            1,
+            10
+          ],
+          "pixels": 1923,
+          "median_log_rgb_ratio": [
+            -0.5245434045791626,
+            -0.5354197025299072,
+            -0.5168997049331665
+          ]
+        },
+        {
+          "views": [
+            1,
+            11
+          ],
+          "pixels": 5724,
+          "median_log_rgb_ratio": [
+            -0.3958134651184082,
+            -0.41411033272743225,
+            -0.39190733432769775
+          ]
+        },
+        {
+          "views": [
+            1,
+            12
+          ],
+          "pixels": 9554,
+          "median_log_rgb_ratio": [
+            -0.18192768096923828,
+            -0.18707704544067383,
+            -0.17522859573364258
+          ]
+        },
+        {
+          "views": [
+            2,
+            3
+          ],
+          "pixels": 6927,
+          "median_log_rgb_ratio": [
+            0.1714709997177124,
+            0.16766035556793213,
+            0.1398226022720337
+          ]
+        },
+        {
+          "views": [
+            2,
+            4
+          ],
+          "pixels": 3642,
+          "median_log_rgb_ratio": [
+            0.4616396129131317,
+            0.4649280309677124,
+            0.4677547216415405
+          ]
+        },
+        {
+          "views": [
+            2,
+            5
+          ],
+          "pixels": 1308,
+          "median_log_rgb_ratio": [
+            0.5638318657875061,
+            0.5573241114616394,
+            0.5354552268981934
+          ]
+        },
+        {
+          "views": [
+            2,
+            11
+          ],
+          "pixels": 2752,
+          "median_log_rgb_ratio": [
+            -0.47623980045318604,
+            -0.48855745792388916,
+            -0.458853542804718
+          ]
+        },
+        {
+          "views": [
+            2,
+            12
+          ],
+          "pixels": 6347,
+          "median_log_rgb_ratio": [
+            -0.39388495683670044,
+            -0.4018983840942383,
+            -0.3796122074127197
+          ]
+        },
+        {
+          "views": [
+            3,
+            4
+          ],
+          "pixels": 5240,
+          "median_log_rgb_ratio": [
+            0.2769479751586914,
+            0.2767900228500366,
+            0.2801676392555237
+          ]
+        },
+        {
+          "views": [
+            3,
+            5
+          ],
+          "pixels": 2644,
+          "median_log_rgb_ratio": [
+            0.5141865611076355,
+            0.5119446516036987,
+            0.5169997811317444
+          ]
+        },
+        {
+          "views": [
+            3,
+            6
+          ],
+          "pixels": 598,
+          "median_log_rgb_ratio": [
+            0.6329870223999023,
+            0.671926736831665,
+            0.7503135800361633
+          ]
+        },
+        {
+          "views": [
+            3,
+            12
+          ],
+          "pixels": 2705,
+          "median_log_rgb_ratio": [
+            -0.3220905661582947,
+            -0.29023778438568115,
+            -0.21738791465759277
+          ]
+        },
+        {
+          "views": [
+            4,
+            5
+          ],
+          "pixels": 7084,
+          "median_log_rgb_ratio": [
+            0.1957685351371765,
+            0.19674843549728394,
+            0.1816847324371338
+          ]
+        },
+        {
+          "views": [
+            4,
+            6
+          ],
+          "pixels": 4707,
+          "median_log_rgb_ratio": [
+            0.4425656795501709,
+            0.45770108699798584,
+            0.47656428813934326
+          ]
+        },
+        {
+          "views": [
+            4,
+            7
+          ],
+          "pixels": 2784,
+          "median_log_rgb_ratio": [
+            0.679705798625946,
+            0.7149487733840942,
+            0.7583457231521606
+          ]
+        },
+        {
+          "views": [
+            5,
+            6
+          ],
+          "pixels": 9502,
+          "median_log_rgb_ratio": [
+            0.171073317527771,
+            0.17657822370529175,
+            0.18663382530212402
+          ]
+        },
+        {
+          "views": [
+            5,
+            7
+          ],
+          "pixels": 7265,
+          "median_log_rgb_ratio": [
+            0.4288068115711212,
+            0.44817066192626953,
+            0.48362064361572266
+          ]
+        },
+        {
+          "views": [
+            5,
+            8
+          ],
+          "pixels": 3537,
+          "median_log_rgb_ratio": [
+            0.6549950242042542,
+            0.681553840637207,
+            0.7233964204788208
+          ]
+        },
+        {
+          "views": [
+            6,
+            7
+          ],
+          "pixels": 10565,
+          "median_log_rgb_ratio": [
+            0.1980249285697937,
+            0.20728576183319092,
+            0.22479712963104248
+          ]
+        },
+        {
+          "views": [
+            6,
+            8
+          ],
+          "pixels": 6463,
+          "median_log_rgb_ratio": [
+            0.42536067962646484,
+            0.4429025650024414,
+            0.4850102663040161
+          ]
+        },
+        {
+          "views": [
+            6,
+            9
+          ],
+          "pixels": 1978,
+          "median_log_rgb_ratio": [
+            0.5618255734443665,
+            0.579275369644165,
+            0.5801436901092529
+          ]
+        },
+        {
+          "views": [
+            7,
+            8
+          ],
+          "pixels": 8959,
+          "median_log_rgb_ratio": [
+            0.21428722143173218,
+            0.2256317138671875,
+            0.24680876731872559
+          ]
+        },
+        {
+          "views": [
+            7,
+            9
+          ],
+          "pixels": 4041,
+          "median_log_rgb_ratio": [
+            0.42458128929138184,
+            0.4375072717666626,
+            0.4540731906890869
+          ]
+        },
+        {
+          "views": [
+            7,
+            10
+          ],
+          "pixels": 1079,
+          "median_log_rgb_ratio": [
+            0.5820633769035339,
+            0.6276280879974365,
+            0.6902756690979004
+          ]
+        },
+        {
+          "views": [
+            8,
+            9
+          ],
+          "pixels": 6041,
+          "median_log_rgb_ratio": [
+            0.2075045108795166,
+            0.21631383895874023,
+            0.20481491088867188
+          ]
+        },
+        {
+          "views": [
+            8,
+            10
+          ],
+          "pixels": 2787,
+          "median_log_rgb_ratio": [
+            0.42709600925445557,
+            0.44843590259552,
+            0.43748462200164795
+          ]
+        },
+        {
+          "views": [
+            8,
+            11
+          ],
+          "pixels": 1158,
+          "median_log_rgb_ratio": [
+            0.4842503070831299,
+            0.5305993556976318,
+            0.5354142189025879
+          ]
+        },
+        {
+          "views": [
+            9,
+            10
+          ],
+          "pixels": 5587,
+          "median_log_rgb_ratio": [
+            0.18468093872070312,
+            0.1951897144317627,
+            0.20175695419311523
+          ]
+        },
+        {
+          "views": [
+            9,
+            11
+          ],
+          "pixels": 3552,
+          "median_log_rgb_ratio": [
+            0.3890141248703003,
+            0.41619324684143066,
+            0.4214409589767456
+          ]
+        },
+        {
+          "views": [
+            9,
+            12
+          ],
+          "pixels": 1622,
+          "median_log_rgb_ratio": [
+            0.5822729468345642,
+            0.6239194869995117,
+            0.6406866908073425
+          ]
+        },
+        {
+          "views": [
+            10,
+            11
+          ],
+          "pixels": 7068,
+          "median_log_rgb_ratio": [
+            0.1778378039598465,
+            0.1858692169189453,
+            0.17618560791015625
+          ]
+        },
+        {
+          "views": [
+            10,
+            12
+          ],
+          "pixels": 4697,
+          "median_log_rgb_ratio": [
+            0.3518052399158478,
+            0.36705589294433594,
+            0.35880911350250244
+          ]
+        },
+        {
+          "views": [
+            11,
+            12
+          ],
+          "pixels": 8806,
+          "median_log_rgb_ratio": [
+            0.15928113460540771,
+            0.16402864456176758,
+            0.16182875633239746
+          ]
+        }
+      ],
+      "median_pair_log_rgb_before": 0.4233361482620239,
+      "median_pair_log_rgb_after": 0.3676472107658354,
+      "per_camera_linear_rgb_gain": [
+        [
+          0.9801228046417236,
+          0.9869227409362793,
+          0.9796663522720337
+        ],
+        [
+          1.05740225315094,
+          1.0696860551834106,
+          1.064448356628418
+        ],
+        [
+          1.0193136930465698,
+          1.0171653032302856,
+          0.9857656955718994
+        ],
+        [
+          0.9306230545043945,
+          0.9196187853813171,
+          0.900026798248291
+        ],
+        [
+          0.9074410796165466,
+          0.8934199213981628,
+          0.870121955871582
+        ],
+        [
+          0.9697889089584351,
+          0.9600748419761658,
+          0.9503530263900757
+        ],
+        [
+          1.0959584712982178,
+          1.0922985076904297,
+          1.0984132289886475
+        ],
+        [
+          1.1653804779052734,
+          1.1657414436340332,
+          1.1967865228652954
+        ],
+        [
+          1.062931776046753,
+          1.0613452196121216,
+          1.0753135681152344
+        ],
+        [
+          0.9590415358543396,
+          0.9645822644233704,
+          0.9878401160240173
+        ],
+        [
+          0.9314091205596924,
+          0.9390493035316467,
+          0.9556670784950256
+        ],
+        [
+          0.953140377998352,
+          0.9644339680671692,
+          0.9794723987579346
+        ]
+      ]
+    },
+    "diffuse_irradiance_proxy": {
+      "model": "bounded first-order diffuse irradiance, ambient plus world-normal gradient",
+      "coefficients": [
+        0.9713445562342917,
+        -0.11465359728843799,
+        -0.039995475437535934,
+        0.17808334155405037
+      ],
+      "linear_luminance_gauge": 0.3020977313250303,
+      "direction_world_xyz": [
+        -0.5319292462514753,
+        -0.18555687397610587,
+        0.8262081599104144
+      ],
+      "directional_fraction": 0.22190163679170954,
+      "train_texels": 149223,
+      "holdout_texels": 37306,
+      "heldout_median_error_flat": 0.2230640224067184,
+      "heldout_median_error_light": 0.21607376618445018,
+      "heldout_relative_improvement": 0.03133744360407309,
+      "qualification": "weak_proxy"
+    },
+    "selection": "global_normal_fit",
+    "differential_probe": {
+      "model": "bounded log-irradiance gradient fit to equal-chroma mesh edges",
+      "coefficients": [
+        1.0,
+        0.00423662214788045,
+        0.08909381798101258,
+        0.03304834358544972
+      ],
+      "direction_world_xyz": [
+        0.04453967328980058,
+        0.9366446679698651,
+        0.34743774041813447
+      ],
+      "directional_fraction": 0.09512018914720285,
+      "equal_chroma_edges": 54679,
+      "train_edges": 43887,
+      "holdout_edges": 10792,
+      "heldout_median_error_flat": 0.07776238796405144,
+      "heldout_median_error_light": 0.07767555272768933,
+      "heldout_relative_improvement": 0.0011166739941453896,
+      "qualification": "weak_proxy"
+    },
+    "limitations": [
+      "This first-order model is effective diffuse shading, not a calibrated HDR environment map.",
+      "Wood color, hard cast shadows and interreflection remain confounded with light.",
+      "Camera gain and light scale have an arbitrary shared gauge; captured exposure is not radiometry."
+    ]
+  },
+  "output_hashes": {
+    "base_color": "4c1a430f8ac1842276ed2dd563fb2dd664c5a1fe4cd8acb721450ab7c097d4e3",
+    "textured_glb": "1444d1cceb3cb392328ef0d92b59906c23831851524d89675fdd3d799ee11781",
+    "upright_delighted_glb": "e9b160dce196a86e3fed4474cd525bae23182dba47770b546e96a2280cbd2978",
+    "upright_lit_glb": "ccb61a6793257f6cf7211a6010bc5d66c1256c1cdf56f23cd98d288e2d530364"
+  },
+  "limits": [
+    "Delighted texture is a bounded candidate, not measured intrinsic reflectance.",
+    "Unobserved texels retain F79 neutral filler and are identified by mask.",
+    "Residual dark pixels are not automatically removed or converted to geometry."
+  ]
+}
+

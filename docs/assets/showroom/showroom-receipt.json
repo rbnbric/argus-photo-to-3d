@@ -1,0 +1,21 @@
+{
+  "contract": "argus-showroom-comparison/v1",
+  "source_glb": "fox-material-tangents-upright.glb (local review asset)",
+  "source_glb_unchanged": true,
+  "states": [
+    "neutral",
+    "base_color",
+    "base_color_normal"
+  ],
+  "normal_removed_only_for_base_color_state": true,
+  "lighting": [
+    "warm key",
+    "cool key"
+  ],
+  "frames": 96,
+  "resolution": [
+    1600,
+    900
+  ],
+  "renderer": "BLENDER_EEVEE"
+}

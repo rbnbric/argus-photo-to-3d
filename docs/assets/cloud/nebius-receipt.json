@@ -1,0 +1,101 @@
+{
+  "contract": "argus-nebius-demo-audit/v1",
+  "status": "advised",
+  "started_at": "2026-10-22T01:32:03.187510+00:00",
+  "provider": "Nebius Token Factory",
+  "endpoint": "https://api.tokenfactory.nebius.com/v1/chat/completions",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "max_paid_calls": 1,
+  "max_output_tokens": 1400,
+  "facts_sha256": "b82fb4f4d98bbdf3be5deefdd8fb319ecde3c9823eac3f696f960d958eeb664b",
+  "latency_seconds": 10.98,
+  "provider_response": {
+    "id": "chatcmpl-df1ab3624da30bde8e737aaa5950c62f",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\"next_action\": \"improve_material_validation\", \"reason\": \"Fox material is not promoted because its candidate mean MAE exceeds the control (fox.material.candidate_minus_control_mae_255 = 0.00493 > 0, fox.material.mean_candidate_mae_255 = 15.553794 > fox.material.mean_control_mae_255 = 15.548864). Additionally, all controls failed (controls.failed_count = 3, controls.total_count = 3), indicating a need for stronger material validation.\", \"evidence_keys\": [\"fox.material.candidate_minus_control_mae_255\", \"fox.material.mean_candidate_mae_255\", \"fox.material.mean_control_mae_255\", \"controls.failed_count\", \"controls.total_count\"], \"readiness\": \"demo_only\", \"geometry_accepted\": false}",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning": "We need to output JSON with fields: next_action (choose one of improve_material_validation, repair_control_geometry, revisit_lighting, capture_physical_wall), reason, evidence_keys (list of strings), readiness:'demo_only', geometry_accepted:false.\n\nWe must cite 2-6 exact supplied evidence keys. Must read deterministic gates literally. State that fox material is not promoted when its candidate mean MAE exceeds control. So we should note that fox.material.candidate_minus_control_mae_255 > 0? Actually it's 0.00493 positive meaning candidate worse than control by ~0.005 in [0-255] units. Since candidate minus control >0 means candidate higher error => not promoted. Also mention controls failed count = total count etc.\n\nNow choose next_action based on what needs improvement. Let's examine statuses:\n\n- Controls all failed (3/3). That suggests something wrong with control validation maybe.\n- Fox geometry review_candidate, max exterior gain 0, max owner loss 1.315... indicates some loss.\n- Fox material not promoted (gate says not_promoted) because candidate mean MAE exceeds control.\n- Fox light status review_only, direction agreement gate false, global five percent gate false, but global heldout improvement 0.0255 positive small.\n- Wall light qualification unidentifiable as 3d scene light from flat synthetic panel.\n- Product demo_only.\n\nThus likely need to improve material validation (since material not promoted) or repair control geometry (controls failing). Which action best? The prompt: \"Choose one next_action from improve_material_validation, repair_control_geometry, revisit_lighting, capture_physical_wall.\" We need to decide which is most appropriate given evidence.\n\nGiven controls all failed, perhaps repairing control geometry would address that. However we have no explicit control geometry evidence besides controls.failed_count/total_count. There's also fox.geometry status review_candidate. But controlling geometry might refer to control geometry used for validation? Not sure.\n\nMaterial validation: fox.material data shows candidate worse than control, so improving material validation could help. Light revisit: fox.light status review_only, gates false, but small improvement. Could revisit lighting.\n\nCapture physical wall: wall.light.qualification unidentifiable, wall.material_count 4, view_count 6. Might need capture physical wall.\n\nWhich is most directly supported? The instruction: \"State that fox material is not promoted when its candidate mean MAE exceeds control.\" So we need to include that statement in reason. That points to material validation issue. So next_action likely improve_material_validation.\n\nThus set next_action: improve_material_validation. Reason: fox material not promoted because candidate mean MAE exceeds control (evidence fox.material.candidate_minus_control_mae_255 positive, fox.material.mean_candidate_mae_255 > fox.material.mean_control_mae_255). Also controls all failed indicating need for better validation. Evidence keys: fox.material.candidate_minus_control_mae_255, fox.material.mean_candidate_mae_255, fox.material.mean_control_mae_255, controls.failed_count, controls.total_count. That's 5 keys.\n\nReadiness: 'demo_only'. geometry_accepted:false.\n\nReturn JSON only.",
+          "reasoning_content": "We need to output JSON with fields: next_action (choose one of improve_material_validation, repair_control_geometry, revisit_lighting, capture_physical_wall), reason, evidence_keys (list of strings), readiness:'demo_only', geometry_accepted:false.\n\nWe must cite 2-6 exact supplied evidence keys. Must read deterministic gates literally. State that fox material is not promoted when its candidate mean MAE exceeds control. So we should note that fox.material.candidate_minus_control_mae_255 > 0? Actually it's 0.00493 positive meaning candidate worse than control by ~0.005 in [0-255] units. Since candidate minus control >0 means candidate higher error => not promoted. Also mention controls failed count = total count etc.\n\nNow choose next_action based on what needs improvement. Let's examine statuses:\n\n- Controls all failed (3/3). That suggests something wrong with control validation maybe.\n- Fox geometry review_candidate, max exterior gain 0, max owner loss 1.315... indicates some loss.\n- Fox material not promoted (gate says not_promoted) because candidate mean MAE exceeds control.\n- Fox light status review_only, direction agreement gate false, global five percent gate false, but global heldout improvement 0.0255 positive small.\n- Wall light qualification unidentifiable as 3d scene light from flat synthetic panel.\n- Product demo_only.\n\nThus likely need to improve material validation (since material not promoted) or repair control geometry (controls failing). Which action best? The prompt: \"Choose one next_action from improve_material_validation, repair_control_geometry, revisit_lighting, capture_physical_wall.\" We need to decide which is most appropriate given evidence.\n\nGiven controls all failed, perhaps repairing control geometry would address that. However we have no explicit control geometry evidence besides controls.failed_count/total_count. There's also fox.geometry status review_candidate. But controlling geometry might refer to control geometry used for validation? Not sure.\n\nMaterial validation: fox.material data shows candidate worse than control, so improving material validation could help. Light revisit: fox.light status review_only, gates false, but small improvement. Could revisit lighting.\n\nCapture physical wall: wall.light.qualification unidentifiable, wall.material_count 4, view_count 6. Might need capture physical wall.\n\nWhich is most directly supported? The instruction: \"State that fox material is not promoted when its candidate mean MAE exceeds control.\" So we need to include that statement in reason. That points to material validation issue. So next_action likely improve_material_validation.\n\nThus set next_action: improve_material_validation. Reason: fox material not promoted because candidate mean MAE exceeds control (evidence fox.material.candidate_minus_control_mae_255 positive, fox.material.mean_candidate_mae_255 > fox.material.mean_control_mae_255). Also controls all failed indicating need for better validation. Evidence keys: fox.material.candidate_minus_control_mae_255, fox.material.mean_candidate_mae_255, fox.material.mean_control_mae_255, controls.failed_count, controls.total_count. That's 5 keys.\n\nReadiness: 'demo_only'. geometry_accepted:false.\n\nReturn JSON only."
+        },
+        "stop_reason": null,
+        "token_ids": null,
+        "routed_experts": null
+      }
+    ],
+    "created": 1792632723,
+    "model": "nvidia/nemotron-3-super-120b-a12b",
+    "object": "chat.completion",
+    "moderation": null,
+    "service_tier": null,
+    "system_fingerprint": "vllm-0.1.dev1+g5001743e3-tp2-05adddbc",
+    "usage": {
+      "completion_tokens": 911,
+      "prompt_tokens": 779,
+      "total_tokens": 1690,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 702,
+        "rejected_prediction_tokens": null
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": null,
+        "cached_tokens": 0,
+        "created_cache_tokens": 0,
+        "multimodal_tokens": null
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 779
+    },
+    "prompt_logprobs": null,
+    "prompt_token_ids": null,
+    "prompt_text": null,
+    "kv_transfer_params": null,
+    "ec_transfer_params": null,
+    "metrics": null
+  },
+  "advice": {
+    "next_action": "improve_material_validation",
+    "reason": "Fox material is not promoted because its candidate mean MAE exceeds the control (fox.material.candidate_minus_control_mae_255 = 0.00493 > 0, fox.material.mean_candidate_mae_255 = 15.553794 > fox.material.mean_control_mae_255 = 15.548864). Additionally, all controls failed (controls.failed_count = 3, controls.total_count = 3), indicating a need for stronger material validation.",
+    "evidence_keys": [
+      "fox.material.candidate_minus_control_mae_255",
+      "fox.material.mean_candidate_mae_255",
+      "fox.material.mean_control_mae_255",
+      "controls.failed_count",
+      "controls.total_count"
+    ],
+    "readiness": "demo_only",
+    "geometry_accepted": false
+  },
+  "usage": {
+    "completion_tokens": 911,
+    "prompt_tokens": 779,
+    "total_tokens": 1690,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 702,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": null
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 779
+  },
+  "cost_usd": null,
+  "cost_note": "Model price was not independently verified."
+}

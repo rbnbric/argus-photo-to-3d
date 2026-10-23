@@ -1,0 +1,27 @@
+{
+  "contract": "argus-capture-light-qualification/v1",
+  "status": "review_only",
+  "lighting_attempted": true,
+  "selected_texture": "fox-lit-upright.glb",
+  "de_lit_candidate": "fox-delighted-upright.glb",
+  "capture_light_scene": "fox-capture-light.blend",
+  "capture_light_scene_status": "ready",
+  "checks": {
+    "source_bound_photo_coverage_at_least_75_percent": true,
+    "camera_gain_overlap_connected": true,
+    "camera_gain_reduces_pair_residual_at_least_10_percent": true,
+    "global_light_beats_flat_heldout_by_5_percent": false,
+    "local_light_beats_flat_heldout_by_5_percent": false,
+    "light_directions_agree": false,
+    "geometry_unchanged": true,
+    "blender_scene_built": true
+  },
+  "metrics": {
+    "camera_pair_log_disagreement_reduction": 0.13154779653194149,
+    "global_light_heldout_improvement": 0.03133744360407309,
+    "local_light_heldout_improvement": 0.0011166739941453896,
+    "light_direction_cosine_agreement": 0.08956308473809271
+  },
+  "reason": "Unqualified light remains a saved diagnostic and never silently replaces the source-bound texture."
+}
+
