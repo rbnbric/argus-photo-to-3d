@@ -1,0 +1,87 @@
+{
+  "status": "rendered",
+  "duration_seconds": 147,
+  "resolution": [
+    1280,
+    720
+  ],
+  "frames_per_second": 24,
+  "scenes": [
+    [
+      "intro",
+      5
+    ],
+    [
+      "source",
+      7
+    ],
+    [
+      "flash_cameras",
+      2
+    ],
+    [
+      "model",
+      12
+    ],
+    [
+      "compare",
+      10
+    ],
+    [
+      "interface",
+      7
+    ],
+    [
+      "flash_gaps",
+      2
+    ],
+    [
+      "recess",
+      8
+    ],
+    [
+      "residual",
+      8
+    ],
+    [
+      "materials",
+      18
+    ],
+    [
+      "material_detail",
+      16
+    ],
+    [
+      "metrics",
+      8
+    ],
+    [
+      "flash_cloud",
+      2
+    ],
+    [
+      "cloud",
+      13
+    ],
+    [
+      "cost",
+      6
+    ],
+    [
+      "qualification",
+      7
+    ],
+    [
+      "roadmap",
+      8
+    ],
+    [
+      "close",
+      8
+    ]
+  ],
+  "typography": "Roboto Light and Roboto Bold",
+  "motion": "camera and mesh orbits; staged texture cards; moving material light; source-to-proxy reveal; directional scene transitions",
+  "claims": "see accompanying measured reports",
+  "audio": "original generated rhythm bed; no voiceover"
+}
