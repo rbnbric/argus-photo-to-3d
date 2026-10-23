@@ -6,11 +6,11 @@
 
 **Title**
 
-Argus | From Photos to Inspectable 3D — Nebius × NVIDIA Demo
+Argus | Photos to Reusable Textures & Inspectable 3D | Nebius × NVIDIA
 
 **Description**
 
-Argus turns a photo set into a 3D asset you can inspect against its source. This 2:27 demo follows a twelve-view fox reconstruction through camera-matched renders, material layers, residual heatmaps, and a real Nebius GPU diagnostic.
+Argus turns real photos into reusable texture candidates and reconstructs a 3D asset you can inspect against its sources. This 2:27 demo shows source-zone extraction, offset, quilt, adaptive quilt, selective mirror, lit material previews, a twelve-view fox reconstruction, camera-matched residuals, and a real Nebius GPU diagnostic.
 
 Try the interactive demo: https://rbnbric.github.io/argus-photo-to-3d/
 Explore the real-photo material studies: https://rbnbric.github.io/argus-photo-to-3d/surface-examples.html
@@ -22,15 +22,19 @@ Fox source photographs: John Davies, Photogrammetry-examples/Fox, CC BY-SA 4.0. 
 
 The linked WIP studies use “Community Building (2014) 8247” by Grand Canyon National Park and “my office” by Robbie Sproule, both CC BY 2.0. Their credits and adaptation notes are in the repository. The video does not present them as validated PBR capture.
 
+The real-photo material examples use “Abstract - Peeling Paint” by Paul Stevenson and “The face in the door” by sagesolar, both CC BY 2.0. Argus adapted source-zone crops into repeat candidates and inferred shape priors. Source links and adaptation notes are in the repository credits. The lit orb and cube checks use illustrative display lighting; physical PBR remains unqualified.
+
 Chapters:
 00:00 From photo to model
-00:16 Three material states
-00:31 Camera-matched comparison
-00:52 Recesses under review
-01:14 Residual heatmaps
-01:32 Material regions
-01:42 Nebius GPU and Nemotron evidence
-02:06 Qualification and next steps
+00:14 One mesh, three material states
+00:26 Camera-matched comparison
+00:45 Recesses under review
+00:53 Residual heatmaps
+01:01 Real-photo texture methods
+01:19 Lit forms and WIP scenes
+01:35 Diagnostic contracts
+01:45 Nebius GPU and Nemotron evidence
+02:04 Qualification and next steps
 
 #Argus #Photogrammetry #Blender #Nebius #NVIDIA
 
