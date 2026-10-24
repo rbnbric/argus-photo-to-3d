@@ -1,0 +1,103 @@
+{
+  "contract": "argus-new-scene-first-pass/v1",
+  "date_utc": "2026-10-24",
+  "source": {
+    "sha256": "5db4bf6c06ce19f70f4c27e0119f30363716cf8f54905ff320cda6c75e01398a",
+    "dimensions": [
+      960,
+      1440
+    ],
+    "source_page": "https://commons.wikimedia.org/wiki/File:Rustic_wooden_door_in_a_corrugated_metal_wall.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "author": "A S M Jobaer",
+    "capture": "Wikimedia Commons 960px derivative; original linked on file page"
+  },
+  "frozen_spec_sha256": "d9d2a78aea4b7678753c67e6f20e6a098703631bb1bd761f4bf7bb14872b2aa0",
+  "code_sha256": "83e9e85fc883383b259c89d9ddf097ec3a7633c5448357ade212aa1137caf70f",
+  "results": [
+    {
+      "material": "corrugated_wall",
+      "outcome": "candidate_generated",
+      "folder": "commons_door/corrugated_wall",
+      "owned_uv_pixels": 235668,
+      "plane_coverage": 0.7274,
+      "eligible_donors": 20382,
+      "patch_size_wh": [
+        64,
+        64
+      ],
+      "seam_rgb_mae_255": 0.0,
+      "validation": {
+        "all_selected_donors_fully_owned": true,
+        "selected_donors": 64,
+        "zip_integrity_ok": true,
+        "obj_has_faces": true,
+        "orb_and_cube_present": true,
+        "source_license_propagated": true
+      },
+      "warnings": [],
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "material_zip_sha256": "51ea6fa72ce820dd51d37ea3761448a990308b712743a55992c122ad6502feec"
+    },
+    {
+      "material": "weathered_wood",
+      "outcome": "candidate_generated",
+      "folder": "commons_door/weathered_wood",
+      "owned_uv_pixels": 182573,
+      "plane_coverage": 0.6037,
+      "eligible_donors": 29481,
+      "patch_size_wh": [
+        64,
+        64
+      ],
+      "seam_rgb_mae_255": 0.0,
+      "validation": {
+        "all_selected_donors_fully_owned": true,
+        "selected_donors": 64,
+        "zip_integrity_ok": true,
+        "obj_has_faces": true,
+        "orb_and_cube_present": true,
+        "source_license_propagated": true
+      },
+      "warnings": [],
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "material_zip_sha256": "23afdbfc759ccbd8d217103444432e8bd09fdacbc155d3339ef52683dd229b82"
+    },
+    {
+      "material": "blue_paint",
+      "outcome": "candidate_generated",
+      "folder": "commons_door/blue_paint",
+      "owned_uv_pixels": 64581,
+      "plane_coverage": 0.3004,
+      "eligible_donors": 10091,
+      "patch_size_wh": [
+        64,
+        64
+      ],
+      "seam_rgb_mae_255": 0.0,
+      "validation": {
+        "all_selected_donors_fully_owned": true,
+        "selected_donors": 64,
+        "zip_integrity_ok": true,
+        "obj_has_faces": true,
+        "orb_and_cube_present": true,
+        "source_license_propagated": true
+      },
+      "warnings": [],
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "material_zip_sha256": "f959d19d95f8e25b14655ead0889b86840b444b27cd8ad35bf7a9635be14bc27"
+    },
+    {
+      "material": "iron_hardware",
+      "outcome": "deferred",
+      "reason": "small isolated bolt and padlock; no repeat candidate or inferred metallic map"
+    }
+  ],
+  "post_run_visual_review": {
+    "corrugated_wall": "Review only: repeated broad weathering band; zero metallic channel is an authored placeholder, not an iron estimate.",
+    "weathered_wood": "Review candidate: board grain is visible, but lighting and relief are single-image estimates.",
+    "blue_paint": "Partial candidate: only 30.04% of the proposed plane is owned; chips and brace remain excluded.",
+    "iron_hardware": "Deferred: too small and isolated to produce a defensible reusable repeat."
+  },
+  "scope": "guided single-view regional material candidates; no measured PBR, 3D relief, or camera fit"
+}

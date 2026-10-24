@@ -1,0 +1,402 @@
+{
+  "contract": "argus-scene-material-guidance/v1",
+  "guidance": "First-pass authored planes, seed islands and exclusions; no post-run tuning",
+  "cases": [
+    {
+      "id": "commons_door",
+      "title": "Weathered door and corrugated wall \u00b7 first-pass extraction",
+      "reference_size": [
+        960,
+        1440
+      ],
+      "photo_subject": "Rustic wooden door in a corrugated metal wall",
+      "author": "A S M Jobaer",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rustic_wooden_door_in_a_corrugated_metal_wall.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "materials": [
+        {
+          "id": "corrugated_wall",
+          "label": "Weathered corrugated iron wall",
+          "plane_quad": [
+            [
+              720,
+              395
+            ],
+            [
+              940,
+              395
+            ],
+            [
+              940,
+              1270
+            ],
+            [
+              720,
+              1270
+            ]
+          ],
+          "uv_size": [
+            360,
+            900
+          ],
+          "seeds": [
+            [
+              [
+                774,
+                615
+              ],
+              [
+                812,
+                615
+              ],
+              [
+                812,
+                700
+              ],
+              [
+                774,
+                700
+              ]
+            ],
+            [
+              [
+                838,
+                845
+              ],
+              [
+                876,
+                845
+              ],
+              [
+                876,
+                935
+              ],
+              [
+                838,
+                935
+              ]
+            ],
+            [
+              [
+                780,
+                1060
+              ],
+              [
+                818,
+                1060
+              ],
+              [
+                818,
+                1165
+              ],
+              [
+                780,
+                1165
+              ]
+            ]
+          ],
+          "exclude": [
+            [
+              [
+                720,
+                395
+              ],
+              [
+                940,
+                395
+              ],
+              [
+                940,
+                480
+              ],
+              [
+                720,
+                480
+              ]
+            ],
+            [
+              [
+                914,
+                395
+              ],
+              [
+                940,
+                395
+              ],
+              [
+                940,
+                1270
+              ],
+              [
+                914,
+                1270
+              ]
+            ]
+          ],
+          "pattern": "quilt",
+          "roughness": 0.72,
+          "relief_strength": 0.2,
+          "excluded_elements": [
+            "door edge",
+            "paper remnants",
+            "outer border"
+          ]
+        },
+        {
+          "id": "weathered_wood",
+          "label": "Weathered door boards",
+          "plane_quad": [
+            [
+              260,
+              425
+            ],
+            [
+              675,
+              425
+            ],
+            [
+              675,
+              825
+            ],
+            [
+              260,
+              825
+            ]
+          ],
+          "uv_size": [
+            560,
+            540
+          ],
+          "seeds": [
+            [
+              [
+                540,
+                520
+              ],
+              [
+                632,
+                520
+              ],
+              [
+                632,
+                615
+              ],
+              [
+                540,
+                615
+              ]
+            ],
+            [
+              [
+                350,
+                690
+              ],
+              [
+                410,
+                690
+              ],
+              [
+                410,
+                770
+              ],
+              [
+                350,
+                770
+              ]
+            ]
+          ],
+          "exclude": [
+            [
+              [
+                260,
+                425
+              ],
+              [
+                675,
+                425
+              ],
+              [
+                675,
+                485
+              ],
+              [
+                260,
+                485
+              ]
+            ],
+            [
+              [
+                260,
+                470
+              ],
+              [
+                300,
+                450
+              ],
+              [
+                675,
+                770
+              ],
+              [
+                675,
+                825
+              ],
+              [
+                638,
+                825
+              ],
+              [
+                260,
+                515
+              ]
+            ]
+          ],
+          "pattern": "quilt",
+          "roughness": 0.81,
+          "relief_strength": 0.25,
+          "excluded_elements": [
+            "top rail",
+            "diagonal wooden brace",
+            "bolt"
+          ]
+        },
+        {
+          "id": "blue_paint",
+          "label": "Blue door paint",
+          "plane_quad": [
+            [
+              370,
+              850
+            ],
+            [
+              680,
+              850
+            ],
+            [
+              680,
+              1215
+            ],
+            [
+              370,
+              1215
+            ]
+          ],
+          "uv_size": [
+            430,
+            500
+          ],
+          "seeds": [
+            [
+              [
+                555,
+                875
+              ],
+              [
+                640,
+                875
+              ],
+              [
+                640,
+                925
+              ],
+              [
+                555,
+                925
+              ]
+            ],
+            [
+              [
+                565,
+                1035
+              ],
+              [
+                645,
+                1035
+              ],
+              [
+                645,
+                1090
+              ],
+              [
+                565,
+                1090
+              ]
+            ]
+          ],
+          "exclude": [
+            [
+              [
+                370,
+                850
+              ],
+              [
+                440,
+                850
+              ],
+              [
+                440,
+                1015
+              ],
+              [
+                370,
+                1015
+              ]
+            ],
+            [
+              [
+                370,
+                875
+              ],
+              [
+                405,
+                860
+              ],
+              [
+                680,
+                1115
+              ],
+              [
+                680,
+                1185
+              ],
+              [
+                635,
+                1190
+              ],
+              [
+                370,
+                925
+              ]
+            ],
+            [
+              [
+                370,
+                1195
+              ],
+              [
+                680,
+                1195
+              ],
+              [
+                680,
+                1215
+              ],
+              [
+                370,
+                1215
+              ]
+            ]
+          ],
+          "pattern": "quilt",
+          "roughness": 0.73,
+          "relief_strength": 0.18,
+          "excluded_elements": [
+            "iron lock",
+            "wood brace",
+            "bottom rail"
+          ]
+        }
+      ]
+    }
+  ]
+}
