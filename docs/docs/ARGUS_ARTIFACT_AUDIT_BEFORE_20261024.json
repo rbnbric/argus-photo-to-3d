@@ -1,0 +1,50 @@
+{
+  "contract": "argus-artifact-gauntlet/v1",
+  "run_utc": "2026-10-24T22:22:38.639451+00:00",
+  "status": "FAIL_ARTIFACT_INTEGRITY",
+  "scope": "Read-only artifact integrity and internal consistency; no visual or asset qualification",
+  "inputs": {
+    "demo_manifest_sha256": "795a8c82352cf25fdf9b916ff3ee1a60b7a58d698a2544480bb3e1aa86599265",
+    "camera_report_sha256": "e90978045e410e9db1040890f2c8d31024b3fd68df152235ecbfc126e8429de5",
+    "cloud_report_sha256": "4dfa5f8e711782499997e3a282e0eee1ef3b1efa6570f67486e5f3aefe9f2ab6",
+    "material_report_sha256": "c3b0ddfbb7fc54de1a254e22ba357bff720485cccbe101a38fc5621fc8d3230d",
+    "skull_report_sha256": "b33b24cd17d5443efa788be8c4501b7fe3fce821f2483974b7af93c9aef908be"
+  },
+  "checks": [
+    {
+      "check": "demo view bundle",
+      "passed": false,
+      "detail": "12 source-bound views, 24 cloud maps; missing=['assets/fox/model-web.glb']"
+    },
+    {
+      "check": "camera image dimensions",
+      "passed": true,
+      "detail": "Original, own mask and both renders align in all 12 views"
+    },
+    {
+      "check": "local metric arithmetic",
+      "passed": true,
+      "detail": "candidate better 6/12; control MAE 15.54886; candidate MAE 15.55379"
+    },
+    {
+      "check": "cloud measurement contract",
+      "passed": true,
+      "detail": "Cloud report remains a separate resampled contract (8/12); no combined score"
+    },
+    {
+      "check": "material inventory",
+      "passed": true,
+      "detail": "2 scenes and 8 regional materials"
+    },
+    {
+      "check": "regional ownership and exports",
+      "passed": true,
+      "detail": "883 fully owned donors, eight alpha pairs and ZIPs; failures=[]"
+    },
+    {
+      "check": "skull control label",
+      "passed": true,
+      "detail": "Historical skull depth report is present and remains diagnostic-only; no new skull reconstruction run"
+    }
+  ]
+}
