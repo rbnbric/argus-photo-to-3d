@@ -6,6 +6,9 @@ asset that opens in Blender are different tests. This log keeps those decisions
 separate. [Open the demo](../index.html), [material examples](../surface-examples.html),
 and [source credits](../../CREDITS.md).
 
+**New visual controls:** [two separately remixed material zones, a rejected
+wood donor, and the fox view 05/10 regression](ARGUS_NEW_WORK_20261024.md).
+
 ## First run: saved-artifact integrity
 
 We checked the current twelve-camera demo and the two oblique scene studies.

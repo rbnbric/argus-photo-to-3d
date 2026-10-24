@@ -1,0 +1,554 @@
+{
+  "contract": "argus-new-work-showcase/v1",
+  "date_utc": "2026-10-24",
+  "method_source_sha256": "233eadca3ca29e33b726e69a0f2f5ae5f70cc55a38e82103141ea033d296051c",
+  "material_methods": [
+    "offset",
+    "quilt",
+    "quilt_adapt"
+  ],
+  "material_seeds": [
+    31,
+    32
+  ],
+  "predeclared_checks": {
+    "border_mae_at_most": 0.05,
+    "median_color_delta_at_most": 0.08,
+    "gradient_energy_ratio_range": [
+      0.65,
+      1.35
+    ],
+    "same_seed_repeats_exactly": true
+  },
+  "material_records": [
+    {
+      "source_id": "424540015",
+      "zone": "blue_paint",
+      "source_photo_sha256": "f5cc039c04a2ec2416d17b9bd1f812efa8ef2f33a531a20e500ef027f32e549f",
+      "source_crop_sha256": "36672078378f98334d096de95d23075fbcd7b07e902e0737bf62b13f199efe17",
+      "source_page": "https://www.flickr.com/photos/53496815@N00/424540015/",
+      "source_credit": [
+        "Peeling paint",
+        "Paul Stevenson",
+        "CC BY 2.0"
+      ],
+      "box_xyxy": [
+        420,
+        35,
+        580,
+        195
+      ],
+      "owner_coverage": 0.9986,
+      "status": "appearance_candidates_only_not_measured_pbr",
+      "variants": [
+        {
+          "method": "offset",
+          "seed": 31,
+          "file": "424540015-blue_paint-offset-31.png",
+          "sha256": "8c1292ed2ee7df9f7a550bf690cc74301e2d631cee76cb1c500831edc95d56ee",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.00654,
+            "gradient_energy_ratio": 0.9558,
+            "hole_fill_fraction": 0.0014
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "offset",
+          "seed": 32,
+          "file": "424540015-blue_paint-offset-32.png",
+          "sha256": "6ce3caa0479437c37711f901e5ad058de0ad48ef765d220cef49d22d42c8068d",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.00261,
+            "gradient_energy_ratio": 0.9562,
+            "hole_fill_fraction": 0.0014
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "quilt",
+          "seed": 31,
+          "file": "424540015-blue_paint-quilt-31.png",
+          "sha256": "d3768cae82c59a655afdb1df08062123a978c7c85e1abdca4b76c82c39b431ff",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.00131,
+            "gradient_energy_ratio": 0.9296,
+            "hole_fill_fraction": 0.0014
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "quilt",
+          "seed": 32,
+          "file": "424540015-blue_paint-quilt-32.png",
+          "sha256": "5bf4b64996eac870058dce215044aa09df2cdb62ce8c44c1f94a5b6f75a9ec1d",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.01307,
+            "gradient_energy_ratio": 0.9112,
+            "hole_fill_fraction": 0.0014
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "quilt_adapt",
+          "seed": 31,
+          "file": "424540015-blue_paint-quilt_adapt-31.png",
+          "sha256": "faa2ec539974a986a780712b180a61d5859593820d31ca7c09508a2fbf22c15e",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.01961,
+            "gradient_energy_ratio": 0.9099,
+            "hole_fill_fraction": 0.0014
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "quilt_adapt",
+          "seed": 32,
+          "file": "424540015-blue_paint-quilt_adapt-32.png",
+          "sha256": "c8860c051bb54952398bc92ef03aab7e65d1970d4eccf41f22584676711a8dec",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.03922,
+            "gradient_energy_ratio": 0.9104,
+            "hole_fill_fraction": 0.0014
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        }
+      ]
+    },
+    {
+      "source_id": "424540015",
+      "zone": "exposed_orange_substrate",
+      "source_photo_sha256": "f5cc039c04a2ec2416d17b9bd1f812efa8ef2f33a531a20e500ef027f32e549f",
+      "source_crop_sha256": "ab2b9e199cb60e6721190904e518209cf41230786b7db1553847b4af66859a42",
+      "source_page": "https://www.flickr.com/photos/53496815@N00/424540015/",
+      "source_credit": [
+        "Peeling paint",
+        "Paul Stevenson",
+        "CC BY 2.0"
+      ],
+      "box_xyxy": [
+        385,
+        263,
+        545,
+        423
+      ],
+      "owner_coverage": 0.8745,
+      "status": "appearance_candidates_only_not_measured_pbr",
+      "variants": [
+        {
+          "method": "offset",
+          "seed": 31,
+          "file": "424540015-exposed_orange_substrate-offset-31.png",
+          "sha256": "2c07675f63c5d792276489431bd4403d853a1dcbe4643eff4fc95281ca1904f8",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.00523,
+            "gradient_energy_ratio": 0.9485,
+            "hole_fill_fraction": 0.1255
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "offset",
+          "seed": 32,
+          "file": "424540015-exposed_orange_substrate-offset-32.png",
+          "sha256": "93ce695cca08910f776e62d31718dcd22a973ef677d325ad5bf4a0a2ac3bc466",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.00392,
+            "gradient_energy_ratio": 0.9548,
+            "hole_fill_fraction": 0.1255
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "quilt",
+          "seed": 31,
+          "file": "424540015-exposed_orange_substrate-quilt-31.png",
+          "sha256": "fa27429811bf20dc4b3c2aadc8d4c13a153802e5090700564ecf05ee53865fd5",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.03529,
+            "gradient_energy_ratio": 0.9315,
+            "hole_fill_fraction": 0.1255
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "quilt",
+          "seed": 32,
+          "file": "424540015-exposed_orange_substrate-quilt-32.png",
+          "sha256": "3556ad8b2fe162ffe6cfdb180a076d84f5ded2ca2dff34ad58cf0dc0de504872",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.02222,
+            "gradient_energy_ratio": 0.8907,
+            "hole_fill_fraction": 0.1255
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "quilt_adapt",
+          "seed": 31,
+          "file": "424540015-exposed_orange_substrate-quilt_adapt-31.png",
+          "sha256": "3ffecf0b99afcd06b240f9bfea70b71883fe1777f23c2c27ad9c793863d990d5",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.00654,
+            "gradient_energy_ratio": 0.8745,
+            "hole_fill_fraction": 0.1255
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "quilt_adapt",
+          "seed": 32,
+          "file": "424540015-exposed_orange_substrate-quilt_adapt-32.png",
+          "sha256": "a782be122923f2202f7237da0c90e5c608dbda98cf2526675293e6dd196a38c6",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.03137,
+            "gradient_energy_ratio": 0.8988,
+            "hole_fill_fraction": 0.1255
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        }
+      ]
+    },
+    {
+      "source_id": "15940045866",
+      "zone": "weathered_wood",
+      "source_photo_sha256": "82140e6ee9b7ca09e814f354e2a61002fc21cc04fa10e9ac355580aa80f9cfed",
+      "source_crop_sha256": "dc9445f77de5baa60eb9ec62c726c420f4738bccdd8ed7864cf934ca6d65ea23",
+      "source_page": "https://www.flickr.com/photos/62356799@N06/15940045866/",
+      "source_credit": [
+        "Weathered wood",
+        "sagesolar",
+        "CC BY 2.0"
+      ],
+      "box_xyxy": [
+        795,
+        335,
+        859,
+        399
+      ],
+      "owner_coverage": 0.7473,
+      "status": "appearance_candidates_only_not_measured_pbr",
+      "variants": [
+        {
+          "method": "offset",
+          "seed": 31,
+          "file": "15940045866-weathered_wood-offset-31.png",
+          "sha256": "2ae8c3de287b3a9aca9f00e9a096dfebbc12262c578373de0daaef1790b27089",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.00261,
+            "gradient_energy_ratio": 0.9649,
+            "hole_fill_fraction": 0.2527
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "offset",
+          "seed": 32,
+          "file": "15940045866-weathered_wood-offset-32.png",
+          "sha256": "a4b5275832fd6fe66809601e200b49b3e4939b4ff4a776c4786d58bad838484a",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.00131,
+            "gradient_energy_ratio": 0.9646,
+            "hole_fill_fraction": 0.2527
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "quilt",
+          "seed": 31,
+          "file": "15940045866-weathered_wood-quilt-31.png",
+          "sha256": "4e00797a00b5ebafd94fad1c6893a5077c46072a816e7471b1d40c1d9bbb7ed6",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.00915,
+            "gradient_energy_ratio": 0.8693,
+            "hole_fill_fraction": 0.2527
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "quilt",
+          "seed": 32,
+          "file": "15940045866-weathered_wood-quilt-32.png",
+          "sha256": "ea0281ed45ded71ab56c7b5913a74f29f4e38b1760fa420c7c84980da661fffb",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.00523,
+            "gradient_energy_ratio": 0.8847,
+            "hole_fill_fraction": 0.2527
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "quilt_adapt",
+          "seed": 31,
+          "file": "15940045866-weathered_wood-quilt_adapt-31.png",
+          "sha256": "e67b23301811f310de0876c857be177fdf73764f9a67ff470e3a4ea85dc3655b",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.01307,
+            "gradient_energy_ratio": 0.8257,
+            "hole_fill_fraction": 0.2527
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        },
+        {
+          "method": "quilt_adapt",
+          "seed": 32,
+          "file": "15940045866-weathered_wood-quilt_adapt-32.png",
+          "sha256": "ff7f2bd920289f21c512eb6f46a24ef66cce8775a8cf344c7baa8302ac1568d1",
+          "metrics": {
+            "edge_rgb_mae_0_to_1": 0.0,
+            "median_rgb_delta_0_to_1": 0.02353,
+            "gradient_energy_ratio": 0.89,
+            "hole_fill_fraction": 0.2527
+          },
+          "checks": {
+            "same_seed_repeats_exactly": true,
+            "border_mae_at_most_0.05": true,
+            "median_color_delta_at_most_0.08": true,
+            "gradient_energy_ratio_0.65_to_1.35": true
+          },
+          "technical_pass": true
+        }
+      ]
+    }
+  ],
+  "fox_regression": {
+    "contract": "saved-package same-grid owner-mask RGB MAE; conditional on inherited registration",
+    "views": [
+      {
+        "view": 1,
+        "source_sha256": "a866ce6ceff3d67dc764de6f0c88d1735f756a30aa0cea034cdd690f713152cb",
+        "owner_mask_sha256": "9158ca71c453ae02b67a8d2d35685bb81cd9427b98aec4878e27493699383249",
+        "neutral_mae": 0.07342,
+        "candidate_mae": 0.07339,
+        "candidate_delta": -3e-05,
+        "candidate_improved": true
+      },
+      {
+        "view": 2,
+        "source_sha256": "086e51536e9dce89dc605ae436f560fbaf4a4c9bdc7785dc7c757c2011418869",
+        "owner_mask_sha256": "9817bffb356acfba80bb40306114c414300ccd715aef1aa28ac36bfaf3466955",
+        "neutral_mae": 0.07747,
+        "candidate_mae": 0.07753,
+        "candidate_delta": 5e-05,
+        "candidate_improved": false
+      },
+      {
+        "view": 3,
+        "source_sha256": "b2db670767d2246848096fdf843bc5e0d036c1d6e0df6a464aa6c49320a83e77",
+        "owner_mask_sha256": "d9fed00547fb1405c7b2042a690c274449552ef57a25c05b6824f4e9ea147ed7",
+        "neutral_mae": 0.08281,
+        "candidate_mae": 0.08283,
+        "candidate_delta": 2e-05,
+        "candidate_improved": false
+      },
+      {
+        "view": 4,
+        "source_sha256": "934c16b2c66cc26049b8596ad9226b3f2ef031bc3be794254f4b4170ab658f70",
+        "owner_mask_sha256": "4a1440bca53a79722092bc7619386333d1b99a1bc4867cbd3a134d62ae6fde98",
+        "neutral_mae": 0.09117,
+        "candidate_mae": 0.09115,
+        "candidate_delta": -2e-05,
+        "candidate_improved": true
+      },
+      {
+        "view": 5,
+        "source_sha256": "730a7790c6492f50c40fe76e934170a46ffb23f3c3bddb87ec1e62d044e946b7",
+        "owner_mask_sha256": "270bcf5e140df658af457449a58078b0969aff82bb338d18d2490eca379327ba",
+        "neutral_mae": 0.06755,
+        "candidate_mae": 0.06753,
+        "candidate_delta": -1e-05,
+        "candidate_improved": true
+      },
+      {
+        "view": 6,
+        "source_sha256": "d85dbfb5abf50c47ca970ed324ad6bf221a0c289029ba6f5f052ebb507c033b8",
+        "owner_mask_sha256": "1a8279822f3d7423877d58ee3efe0d2bd783d8c01316cbf621ab6de85a45f148",
+        "neutral_mae": 0.05273,
+        "candidate_mae": 0.05265,
+        "candidate_delta": -8e-05,
+        "candidate_improved": true
+      },
+      {
+        "view": 7,
+        "source_sha256": "c14d7208df6e444b43077e43e00c2ace0799fc65341dfcc26b9c3b2d7faf7ea2",
+        "owner_mask_sha256": "835bbb057a2a7a2485e820213738b3f37692c7e7b2556c8fdc2e14f6f297a7be",
+        "neutral_mae": 0.05727,
+        "candidate_mae": 0.05729,
+        "candidate_delta": 2e-05,
+        "candidate_improved": false
+      },
+      {
+        "view": 8,
+        "source_sha256": "da6a54144012a7c13b99b01560f140aa75aa3026ec2ea73c683d7221d9f41940",
+        "owner_mask_sha256": "27cac9ebe325b2f1f0a8df87eb954ce0b432a52124ad4173a03f6d3db5474b6c",
+        "neutral_mae": 0.06216,
+        "candidate_mae": 0.06219,
+        "candidate_delta": 4e-05,
+        "candidate_improved": false
+      },
+      {
+        "view": 9,
+        "source_sha256": "ac515e3fcad48f36891bc13c93493f6269b74373e3ec6be66e0e5e8949558b0f",
+        "owner_mask_sha256": "38d0fdb7c194dc15cdf7986cc340196a123b36bfea813ef1910658c32d7f57d8",
+        "neutral_mae": 0.06203,
+        "candidate_mae": 0.06217,
+        "candidate_delta": 0.00013,
+        "candidate_improved": false
+      },
+      {
+        "view": 10,
+        "source_sha256": "7fb79083ae94ccd46c982337154eef8917b883cb22a4e66c25e5123b28f8f106",
+        "owner_mask_sha256": "bb33ed1ca59d9059340a6dc64ee47f07fb964dc0f66ad95cefb3ec869c8790f6",
+        "neutral_mae": 0.06301,
+        "candidate_mae": 0.06307,
+        "candidate_delta": 6e-05,
+        "candidate_improved": false
+      },
+      {
+        "view": 11,
+        "source_sha256": "6a8fc1e421e245bc94b51da04e7fd5212da0bd0041f581507ead4051913f1330",
+        "owner_mask_sha256": "a8c1dc8e1358b9b0e3eca6708a8839af8ff572a157df124808ff2d4d840ffa01",
+        "neutral_mae": 0.06599,
+        "candidate_mae": 0.06601,
+        "candidate_delta": 2e-05,
+        "candidate_improved": false
+      },
+      {
+        "view": 12,
+        "source_sha256": "ba332a8712fdc447fc5eef1702ac972d54d4a2e137f28590ebd9ddf6c8a68607",
+        "owner_mask_sha256": "144714f228488b4fe426e7dbff8152b327f2009673b081cd34af7b0e4303a7c1",
+        "neutral_mae": 0.06533,
+        "candidate_mae": 0.06531,
+        "candidate_delta": -2e-05,
+        "candidate_improved": true
+      }
+    ],
+    "improved_count": 5,
+    "protected_05_10_pass": false
+  },
+  "image_files": [
+    "01-paint-materials.png",
+    "02-wood-failure.png",
+    "03-fox-camera-regression.png"
+  ],
+  "scope": "new remix candidates on preserved licensed crops; new saved-raster analysis; no new geometry, light fit, or measured PBR"
+}
